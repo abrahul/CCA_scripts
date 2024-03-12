@@ -1,0 +1,260 @@
+[
+  {
+    "ccaFieldValues": {
+      "8ecd80cb-951a-4cc8-94e0-f67679b970bd": {
+        "fieldId": "8ecd80cb-951a-4cc8-94e0-f67679b970bd",
+        "name": "Name of CCA",
+        "type": "TEXT",
+        "value": "Testing CCA 1"
+      },
+      "6910da2c-a36f-4427-bd06-c46ee17212bd": {
+        "fieldId": "6910da2c-a36f-4427-bd06-c46ee17212bd",
+        "name": "Village",
+        "type": "TEXT",
+        "value": "Pongkong, Mon"
+      },
+      "95fd73fd-0346-48fa-a028-c99c50e234dd": {
+        "fieldId": "95fd73fd-0346-48fa-a028-c99c50e234dd",
+        "name": "Country",
+        "type": "SINGLE_SELECT_DROPDOWN",
+        "value": {
+          "valueId": "968c048f-dc23-4805-badb-028102296d46",
+          "label": "India",
+          "value": "India"
+        }
+      },
+      "b426d762-1d79-4475-bd0c-a0a310c3f457": {
+        "fieldId": "b426d762-1d79-4475-bd0c-a0a310c3f457",
+        "name": "Location",
+        "type": "GEOMETRY",
+        "value": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  94.951222,
+                  26.761694
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "f4d0c3af-02ba-4891-b1cb-bd1a81bd0ff4": {
+        "fieldId": "f4d0c3af-02ba-4891-b1cb-bd1a81bd0ff4",
+        "name": "Ecosystem Type",
+        "type": "MULTI_SELECT_CHECKBOX",
+        "value": [
+          {
+            "valueId": "548358f1-2ab8-43ae-8ad1-a15cd60b99a7",
+            "label": "Forest",
+            "value": "Forest"
+          }
+        ]
+      },
+      "fd358a39-1910-46aa-ad4b-e5d2c23a876a": {
+        "fieldId": "fd358a39-1910-46aa-ad4b-e5d2c23a876a",
+        "name": "Communities",
+        "type": "RICHTEXT",
+        "value": "Tribe: Konyak, Dialect: Konyak"
+      },
+      "be1503ee-4707-4ef0-b853-4f4b42d2d15b": {
+        "fieldId": "be1503ee-4707-4ef0-b853-4f4b42d2d15b",
+        "name": "Year of Formation",
+        "type": "YEAR",
+        "value": "2013-01-01T00:00:00.000Z"
+      },
+      "927cc813-2d4f-44f9-8853-0eda20397c53": {
+        "fieldId": "927cc813-2d4f-44f9-8853-0eda20397c53",
+        "name": "Data Source",
+        "type": "MULTI_SELECT_CHECKBOX",
+        "value": [
+          {
+            "valueId": "5de0f260-f283-454b-94b9-4825ee98e449",
+            "label": "From publicly available sources",
+            "value": "From publicly available sources"
+          }
+        ]
+      },
+      "d37003de-7f26-4557-9a46-bf233ddca7c2": {
+        "fieldId": "d37003de-7f26-4557-9a46-bf233ddca7c2",
+        "name": "Information Provider",
+        "type": "RICHTEXT",
+        "value": "Documentation of Community Conserved Areas of Nagaland submitted to Department of Environment, Forests & Climate Change Government of Nagaland by The Energy and Resources Institute (TERI), Oct 2015"
+      }
+    },
+    "shortName": "Long"
+  },
+  {
+    "ccaFieldValues": {
+      "8ecd80cb-951a-4cc8-94e0-f67679b970bd": {
+        "fieldId": "8ecd80cb-951a-4cc8-94e0-f67679b970bd",
+        "name": "Name of CCA",
+        "type": "TEXT",
+        "value": "Testing CCA 2"
+      },
+      "6910da2c-a36f-4427-bd06-c46ee17212bd": {
+        "fieldId": "6910da2c-a36f-4427-bd06-c46ee17212bd",
+        "name": "Village",
+        "type": "TEXT",
+        "value": "Longjemdang, Mokokchung"
+      },
+      "95fd73fd-0346-48fa-a028-c99c50e234dd": {
+        "fieldId": "95fd73fd-0346-48fa-a028-c99c50e234dd",
+        "name": "Country",
+        "type": "SINGLE_SELECT_DROPDOWN",
+        "value": {
+          "valueId": "968c048f-dc23-4805-badb-028102296d46",
+          "label": "India",
+          "value": "India"
+        }
+      },
+      "b426d762-1d79-4475-bd0c-a0a310c3f457": {
+        "fieldId": "b426d762-1d79-4475-bd0c-a0a310c3f457",
+        "name": "Location",
+        "type": "GEOMETRY",
+        "value": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  94.420553,
+                  26.516611
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "f4d0c3af-02ba-4891-b1cb-bd1a81bd0ff4": {
+        "fieldId": "f4d0c3af-02ba-4891-b1cb-bd1a81bd0ff4",
+        "name": "Ecosystem Type",
+        "type": "MULTI_SELECT_CHECKBOX",
+        "value": [
+          {
+            "valueId": "548358f1-2ab8-43ae-8ad1-a15cd60b99a7",
+            "label": "Forest",
+            "value": "Forest"
+          }
+        ]
+      },
+      "fd358a39-1910-46aa-ad4b-e5d2c23a876a": {
+        "fieldId": "fd358a39-1910-46aa-ad4b-e5d2c23a876a",
+        "name": "Communities",
+        "type": "RICHTEXT",
+        "value": "Tribe: Ao, Dialect: Ao"
+      },
+      "927cc813-2d4f-44f9-8853-0eda20397c53": {
+        "fieldId": "927cc813-2d4f-44f9-8853-0eda20397c53",
+        "name": "Data Source",
+        "type": "MULTI_SELECT_CHECKBOX",
+        "value": [
+          {
+            "valueId": "5de0f260-f283-454b-94b9-4825ee98e449",
+            "label": "From publicly available sources",
+            "value": "From publicly available sources"
+          }
+        ]
+      },
+      "d37003de-7f26-4557-9a46-bf233ddca7c2": {
+        "fieldId": "d37003de-7f26-4557-9a46-bf233ddca7c2",
+        "name": "Information Provider",
+        "type": "RICHTEXT",
+        "value": "Documentation of Community Conserved Areas of Nagaland submitted to Department of Environment, Forests & Climate Change Government of Nagaland by The Energy and Resources Institute (TERI), Oct 2015"
+      }
+    },
+    "shortName": "Long"
+  },
+  {
+    "ccaFieldValues": {
+      "8ecd80cb-951a-4cc8-94e0-f67679b970bd": {
+        "fieldId": "8ecd80cb-951a-4cc8-94e0-f67679b970bd",
+        "name": "Name of CCA",
+        "type": "TEXT",
+        "value": "Testing CCA 3"
+      },
+      "6910da2c-a36f-4427-bd06-c46ee17212bd": {
+        "fieldId": "6910da2c-a36f-4427-bd06-c46ee17212bd",
+        "name": "Village",
+        "type": "TEXT",
+        "value": "Aizuto, Zunheboto"
+      },
+      "95fd73fd-0346-48fa-a028-c99c50e234dd": {
+        "fieldId": "95fd73fd-0346-48fa-a028-c99c50e234dd",
+        "name": "Country",
+        "type": "SINGLE_SELECT_DROPDOWN",
+        "value": {
+          "valueId": "968c048f-dc23-4805-badb-028102296d46",
+          "label": "India",
+          "value": "India"
+        }
+      },
+      "b426d762-1d79-4475-bd0c-a0a310c3f457": {
+        "fieldId": "b426d762-1d79-4475-bd0c-a0a310c3f457",
+        "name": "Location",
+        "type": "GEOMETRY",
+        "value": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  94.517222,
+                  26.153833
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "f4d0c3af-02ba-4891-b1cb-bd1a81bd0ff4": {
+        "fieldId": "f4d0c3af-02ba-4891-b1cb-bd1a81bd0ff4",
+        "name": "Ecosystem Type",
+        "type": "MULTI_SELECT_CHECKBOX",
+        "value": [
+          {
+            "valueId": "548358f1-2ab8-43ae-8ad1-a15cd60b99a7",
+            "label": "Forest",
+            "value": "Forest"
+          }
+        ]
+      },
+      "fd358a39-1910-46aa-ad4b-e5d2c23a876a": {
+        "fieldId": "fd358a39-1910-46aa-ad4b-e5d2c23a876a",
+        "name": "Communities",
+        "type": "RICHTEXT",
+        "value": "Tribe: Sumi, Dialect: Sumi"
+      },
+      "927cc813-2d4f-44f9-8853-0eda20397c53": {
+        "fieldId": "927cc813-2d4f-44f9-8853-0eda20397c53",
+        "name": "Data Source",
+        "type": "MULTI_SELECT_CHECKBOX",
+        "value": [
+          {
+            "valueId": "5de0f260-f283-454b-94b9-4825ee98e449",
+            "label": "From publicly available sources",
+            "value": "From publicly available sources"
+          }
+        ]
+      },
+      "d37003de-7f26-4557-9a46-bf233ddca7c2": {
+        "fieldId": "d37003de-7f26-4557-9a46-bf233ddca7c2",
+        "name": "Information Provider",
+        "type": "RICHTEXT",
+        "value": "Documentation of Community Conserved Areas of Nagaland submitted to Department of Environment, Forests & Climate Change Government of Nagaland by The Energy and Resources Institute (TERI), Oct 2015"
+      }
+    },
+    "shortName": "Long"
+  }
+]

@@ -1,0 +1,3771 @@
+
+ {
+     "fields": [
+    {
+      "_t": "com.strandls.cca.pojo.fields.HeaderField",
+      "children": [
+        {
+          "_t": "com.strandls.cca.pojo.fields.TextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "8ecd80cb-951a-4cc8-94e0-f67679b970bd",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": true,
+          "isSummaryField": true,
+          "isTitleColumn": true,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "यदि संपूर्ण सीसीए एक ही नाम से नहीं जाना जाता है, तो कृपया शामिल गांवों के नाम बताइए।",
+              "name": "सीसीए का नाम",
+              "question": "समुदायिक संरक्षित क्षेत्र का नाम बताइए।"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "In case the entire CCA is not known by a single name, please specify the names of village/s involved.",
+              "name": "Name of CCA",
+              "question": "Name the CCA."
+            }
+          },
+          "type": "TEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.TextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "6910da2c-a36f-4427-bd06-c46ee17212bd",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": true,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "गांव",
+              "question": "उन गाँवों का नाम बताइए जो CCA में शामिल हैं।"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Village",
+              "question": "Name the village/s which are involved in the CCA."
+            }
+          },
+          "type": "TEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.TextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "ff595fb6-114e-408b-a90f-58c6fe372ffd",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "पंचायत",
+              "question": "उस पंचायत का नाम बताइए जो सीसीए को शासित करती है, यदि लागू हो।"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Panchayat",
+              "question": "Name the panchayat that governs the CCA, if applicable."
+            }
+          },
+          "type": "TEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.SingleSelectField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "95fd73fd-0346-48fa-a028-c99c50e234dd",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": true,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "देश",
+              "question": "उस देश का नाम चुनें जहां सीसीए स्थित है।"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Country",
+              "question": "Select the country where the CCA is located."
+            }
+          },
+          "type": "SINGLE_SELECT_DROPDOWN",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Bangladesh",
+              "translations": {
+                "en": "Bangladesh",
+                "hi": "बांग्लादेश"
+              },
+              "value": "Bangladesh",
+              "valueId": "ec95ba1f-bdcb-4ee9-85c5-97e5c2593186"
+            },
+            {
+              "label": "Bhutan",
+              "translations": {
+                "en": "Bhutan",
+                "hi": "भूटान"
+              },
+              "value": "Bhutan",
+              "valueId": "cfc92787-2ad7-4165-b2cc-50fa2539e489"
+            },
+            {
+              "label": "India",
+              "translations": {
+                "en": "India",
+                "hi": "भारत"
+              },
+              "value": "India",
+              "valueId": "968c048f-dc23-4805-badb-028102296d46"
+            },
+            {
+              "label": "Maldives",
+              "translations": {
+                "en": "Maldives",
+                "hi": "मालदीव"
+              },
+              "value": "Maldives",
+              "valueId": "8309f55d-1f86-407b-a5c3-fea797a39605"
+            },
+            {
+              "label": "Nepal",
+              "translations": {
+                "en": "Nepal",
+                "hi": "नेपाल"
+              },
+              "value": "Nepal",
+              "valueId": "e6e6db1b-9b12-47b1-8720-062f4ada20df"
+            },
+            {
+              "label": "Pakistan",
+              "translations": {
+                "en": "Pakistan",
+                "hi": "पाकिस्तान"
+              },
+              "value": "Pakistan",
+              "valueId": "fb9fa122-c645-4c05-a3d6-dadc4cb10de2"
+            },
+            {
+              "label": "Sri Lanka",
+              "translations": {
+                "en": "Sri Lanka",
+                "hi": "श्रीलंका "
+              },
+              "value": "Sri Lanka",
+              "valueId": "1e94b572-e027-4b19-866a-2a3fc1351c28"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.GeometryField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "b426d762-1d79-4475-bd0c-a0a310c3f457",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": true,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "सीसीए के स्थानों या सीमाओं को मैप पर चिह्नित करें। \nआप मल्टीपॉइंट, मल्टीलाइन और मल्टीप्लिगॉन चिह्नित कर सकते हैं। ",
+              "name": "स्थान",
+              "question": "सीसीए के स्थानों या सीमाओं को चिह्नित करें।"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Location",
+              "question": "Mark point locations or boundaries of the CCA."
+            }
+          },
+          "type": "GEOMETRY",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.NumberField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "af9852e7-04bc-4065-9895-6f6c59b9b0c4",
+          "isFilterable": true,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": true,
+          "isTitleColumn": false,
+          "minMax": [],
+          "minMaxSet": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "क्षेत्रफल (हेक्टेयर में)",
+              "question": "कितना क्षेत्रफल (हेक्टेयर में) संरक्षित किया जा रहा है?"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Area (ha)",
+              "question": "What is the area (in hectares) being conserved?"
+            }
+          },
+          "type": "NUMBER",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "f4d0c3af-02ba-4891-b1cb-bd1a81bd0ff4",
+          "isFilterable": true,
+          "isMasterField": true,
+          "isRequired": true,
+          "isSummaryField": true,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "पारिस्थितिकी तंत्र प्रकार",
+              "question": "इस सीसीए में जो प्रमुख पारिस्थितिकी तंत्र हैं, वह चुनें।\n(लागू होने वाले सभी विकल्पों चुनें।)"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Ecosystem Type",
+              "question": "Select the predominant ecosystem/s in the CCA.\n(Select all that apply.)"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Forest",
+              "translations": {
+                "en": "Forest",
+                "hi": "वन"
+              },
+              "value": "Forest",
+              "valueId": "548358f1-2ab8-43ae-8ad1-a15cd60b99a7"
+            },
+            {
+              "label": "Grasslands",
+              "translations": {
+                "en": "Grasslands",
+                "hi": "घास के मैदान"
+              },
+              "value": "Grasslands",
+              "valueId": "ff6953cd-594e-4fee-b60c-fd8faef67111"
+            },
+            {
+              "label": "Wetlands and rivers",
+              "translations": {
+                "en": "Wetlands and rivers",
+                "hi": "नदी/ तालाब/ झील"
+              },
+              "value": "Wetlands and rivers",
+              "valueId": "22dc53ad-4cf5-44be-9d7c-71c1cde86d5b"
+            },
+            {
+              "label": "Marine and coastal",
+              "translations": {
+                "en": "Marine and coastal",
+                "hi": "समुद्री और तटीय"
+              },
+              "value": "Marine and coastal",
+              "valueId": "1f03dcb2-ffda-481f-b174-a4379641f736"
+            },
+            {
+              "label": "Others|Rocky Outcrops",
+              "translations": {
+                "en": "Others|Rocky Outcrops",
+                "hi": "अन्य|रॉकी आउटक्रॉप्स (पृथ्वी की सतह से ऊपर निकला चट्टानी भाग)"
+              },
+              "value": "Others|Rocky Outcrops",
+              "valueId": "b625eb09-5d31-4286-a495-33bf9db77d96"
+            },
+            {
+              "label": "Others|Desert",
+              "translations": {
+                "en": "Others|Desert",
+                "hi": "अन्य|रेगिस्तानी"
+              },
+              "value": "Others|Desert",
+              "valueId": "1dab1ee6-b7ba-452f-b8b0-b7ccecc732ae"
+            },
+            {
+              "label": "Others|Ex-situ conservation sites",
+              "translations": {
+                "en": "Others|Ex-situ conservation sites",
+                "hi": "अन्य|कृत्रिम/ मानव निर्मित संरक्षण स्थल"
+              },
+              "value": "Others|Ex-situ conservation sites",
+              "valueId": "1f9f8841-7642-4339-b999-730d1a9b23a3"
+            },
+            {
+              "label": "Others|Urban Areas",
+              "translations": {
+                "en": "Others|Urban Areas",
+                "hi": "अन्य|शहरी क्षेत्र"
+              },
+              "value": "Others|Urban Areas",
+              "valueId": "b76c13f3-598c-45d5-a599-ffa162688458"
+            },
+            {
+              "label": "Others|Mountain Ecosystem",
+              "translations": {
+                "en": "Others|Mountain Ecosystem",
+                "hi": "अन्य|पर्वतीय"
+              },
+              "value": "Others|Mountain Ecosystem",
+              "valueId": "fcdd8b90-233d-4d9a-8cbc-93a6c3db6140"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "dda946af-2490-41d9-907c-23ee7fcc40de"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637059167549"
+            }
+          },
+          "fieldId": "954378d1-b9b4-4ec5-80f0-245a29731a1c",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "पारिस्थितिक तंत्र, उसके वर्तमान हालात, किसी विशिष्ट भौगोलिक विशेषता, आदि सहित भौतिक क्षेत्र का वर्णन करें।\t",
+              "name": " पारिस्थितिकी तंत्र - अधिक जानकारी",
+              "question": "क्षेत्र का वर्णन करें।"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Please specify the type of ecosystem, its current health and any special geographical features.",
+              "name": "Ecosystem - further details",
+              "question": "Describe the physical area."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RadioField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "bd1cc691-d63f-456e-9e1c-d1980442e84f",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "अ) परिभाषित सीसीएः एक क्षेत्र जो सीसीए कहलाने के लिए 3 मानदंडों को पूरा करता हैः\n१. समुदाय मुख्य निर्णयकर्ता है।\n२. संरक्षण के लिए व्यवस्थाएं, नियम और कानून मौजूद हैं।\n३. प्रयास संरक्षण की ओर अग्रसर है।\n\nब) बाधित सीसीएः इनमें शामिल हैंः\n - स्थानीय समुदायों के लंबे समय तक पूर्ण नियंत्रण के तहत एक क्षेत्र जो विभिन्न प्रकार के प्रभावों और स्थितियों के कारण संरक्षण की खराब स्थिति में है, जो उनके नियंत्रण से बाहर विकसित हुए हैं, लेकिन इसे परिवर्तित और रोका जा सकता है।\n - एक अच्छी तरह से संरक्षित क्षेत्र जहां समुदाय स्थायी रूप से रहना चाहते हैं, लेकिन विकास और संरक्षण पहलों या अन्य कारणों से उन्हें हटा दिया गया है और प्रबंधन नियंत्रण से वंचित कर दिया गया है। \n - ऐसा क्षेत्र जहां मौजूदा राष्ट्रीय कानून और नीतियों के तहत स्थानीय समुदायों को समायोजित करने का कोई तरीका नहीं है (कुछ मामलों में राष्ट्रीय कानून “समुदायों“ के अस्तित्व को भी स्वीकार नहीं करता है)। ऐसे मामलों में, सीसीए जमीन पर वास्तविक रूप से मौजूद हो सकते हैं और जैव विविधता संरक्षण के लिए महत्वपूर्ण भूमिका निभा सकते हैं, लेकिन उनकी दीर्घकालिक सुरक्षा बहुत कम है।\n\nस) वांछित सीसीएः इनमें नए या पुनर्गठित समुदाय शामिल हो सकते हैं जो एक सामान्य पर्यावरण, सामाजिक-पारिस्थितिक सिद्धांतों और विज़न के संबंध में खुद को एक साथ लाने का निर्णय लेते हैं। ऐसा करने में, वे अपने लिए एक “समुदाय“ के रूप में और एक सीसीए के रूप में अपने क्षेत्र के लिए एक समान पहचान विकसित करते हैं। यह एक पहले से मौजूद ऐतिहासिक स्थिति या एक नई स्थिति हो सकती है। (“वांछित सीसीए“ का एक महत्वपूर्ण उदाहरण नई भूमि पर स्थानांतरित समुदाय का नया क्षेत्र हो सकता है। यदि, विभिन्न कारणों से, समुदाय नए क्षेत्र में रहने को स्वीकार करने का निर्णय लेता है, तो वह शासी संस्था के एक रूप और सकारात्मक प्रणालियों के साथ सचेतन रूप से इससे लगाव विकसित करने के लिए प्रयास कर सकता है।)",
+              "name": "सीसीए की श्रेणी",
+              "question": "सीसीए की श्रेणी को चुनें। "
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "A DEFINED CCA is a territory that fulfils the 3 criteria: \n1) The community is the main decision-maker. \n2) There are systems, rules and regulations in place for conservation. \n3) The effort is leading towards conservation.\n\nA DISRUPTED CCA may include:\n - A territory under control of local communities that is in a poor state of conservation\n - A well-conserved territory where communities have been removed and deprived of management control\n - A territory which is a de facto CCA on ground but where there is no way of accommodating local communities under existing national legislation\n\nA DESIRED CCA could include new or reconstituted communities that have developed a common identity for themselves and for their territory as a CCA. (For e.g., a territory of a community relocated onto new land, working to develop a bond with it and to form a governing mechanism and positive practices)",
+              "name": "Category of CCA",
+              "question": "Select the category of the CCA."
+            }
+          },
+          "type": "SINGLE_SELECT_RADIO",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Defined",
+              "translations": {
+                "en": "Defined",
+                "hi": "परिभाषित"
+              },
+              "value": "Defined",
+              "valueId": "b09d9d92-2acc-440f-9a8b-bb7157e4de43"
+            },
+            {
+              "label": "Disrupted",
+              "translations": {
+                "en": "Disrupted",
+                "hi": "बाधित"
+              },
+              "value": "Disrupted",
+              "valueId": "c2618731-1f29-4641-aa26-0eb6f0a18984"
+            },
+            {
+              "label": "Desired",
+              "translations": {
+                "en": "Desired",
+                "hi": "वांछित"
+              },
+              "value": "Desired",
+              "valueId": "3616d449-0b7f-4cfb-9ee2-1bd7dab59cf4"
+            },
+            {
+              "label": "Data deficient",
+              "translations": {
+                "en": "Data deficient",
+                "hi": "आंकडों की कमी"
+              },
+              "value": "Data deficient",
+              "valueId": "6aa4f11b-1433-4380-ba48-dc4dbea97965"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637226074998"
+            }
+          },
+          "fieldId": "fd358a39-1910-46aa-ad4b-e5d2c23a876a",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "इन क्षेत्रों में कौन से समुदाय रहते हैं? आबादी जनसांख्यिकी क्या हैं? यहाँ रहने वाले लोगों के व्यवसाय, सामाजिक-आर्थिक स्थिति आदि का वर्णन करें।",
+              "name": "समुदाय",
+              "question": "क्षेत्र के समुदायों और जनसांख्यिकी का वर्णन करें।"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Which communities live in these areas? What are the population demographics? Describe the occupations and socio-economic status of the people living there. ",
+              "name": "Communities",
+              "question": "Describe the communities and demographics of the area."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.NumberField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "c378bf3b-eb97-4278-aa0e-b8ca3e2bd23f",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "minMax": [],
+          "minMaxSet": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "संख्या में हर कोई परिवार शामिल होना चाहिए जो किसी भी तरह से सीसीए से जुड़ा हो।",
+              "name": "परिवारों की संख्या",
+              "question": "सीसीए से कितने परिवार जुड़े हुए हैं?"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "The number should include any households who are involved with the CCA in any way.",
+              "name": "Number of households",
+              "question": "How many households are associated with the CCA?"
+            }
+          },
+          "type": "NUMBER",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.NumberField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "089a7578-b9a5-43e8-a574-b4800fbfa6cf",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "minMax": [],
+          "minMaxSet": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "संख्या में हर कोई व्यक्ति शामिल होना चाहिए जो किसी भी तरह से सीसीए से जुड़ा हो।",
+              "name": "लोगों की संख्या\t",
+              "question": "सीसीए से कितने लोग जुड़े हैं?"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "The number should include anyone who is involved with the CCA in any way.",
+              "name": "Number of people",
+              "question": "How many people are associated with the CCA?"
+            }
+          },
+          "type": "NUMBER",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        }
+      ],
+      "createdOn": {
+        "$date": {
+          "$numberLong": "1633515231776"
+        }
+      },
+      "fieldId": "4ce56bdd-1559-4203-b8c8-c84f7a548121",
+      "isFilterable": false,
+      "isMasterField": true,
+      "isRequired": false,
+      "isSummaryField": false,
+      "isTitleColumn": false,
+      "translations": {
+        "hi": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "विवरण",
+          "question": "विवरण"
+        },
+        "en": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "Description",
+          "question": "Description"
+        }
+      },
+      "type": "HEADING",
+      "updatedOn": {
+        "$date": {
+          "$numberLong": "1653444686478"
+        }
+      },
+      "valueOptions": []
+    },
+    {
+      "_t": "com.strandls.cca.pojo.fields.HeaderField",
+      "children": [
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "40033b69-70a5-4769-a320-fe0ea01bf067",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "उत्पत्ति",
+              "question": "सीसीए की उत्पत्ति कैसे हुई?\n(लागू होने वाले सभी विकल्पों का चयन करें)\t "
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Origin",
+              "question": "How did the CCA originate?"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Based on traditional practice",
+              "translations": {
+                "en": "Based on traditional practice",
+                "hi": "पारंपरिक प्रथाओं पर आधारित"
+              },
+              "value": "Based on traditional practice",
+              "valueId": "5ff4fe01-bd5a-4c80-bcd2-7bec77ee830e"
+            },
+            {
+              "label": "Revived by community initiative",
+              "translations": {
+                "en": "Revived by community initiative",
+                "hi": "सामुदायिक पहल द्वारा पुनर्जीवित"
+              },
+              "value": "Revived by community initiative",
+              "valueId": "836b941f-a3ea-4f7a-bc48-739f2d1432ba"
+            },
+            {
+              "label": "New initiative by community",
+              "translations": {
+                "en": "New initiative by community",
+                "hi": "समुदाय द्वारा नई पहल"
+              },
+              "value": "New initiative by community",
+              "valueId": "691f4fb4-38e9-43c2-8a99-3a49b3892de5"
+            },
+            {
+              "label": "New initiative by government agency",
+              "translations": {
+                "en": "New initiative by government agency",
+                "hi": "सरकारी एजेंसी द्वारा नई पहल"
+              },
+              "value": "New initiative by government agency",
+              "valueId": "401a3a77-6149-46d6-9faf-36eab3a34629"
+            },
+            {
+              "label": "New initiative by external non-government agency",
+              "translations": {
+                "en": "New initiative by external non-government agency",
+                "hi": "बाह्य गैर सरकारी एजेंसी द्वारा नई पहल"
+              },
+              "value": "New initiative by external non-government agency",
+              "valueId": "063f13ac-baf3-49ee-a58d-fe45c3e66e18"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637849181201"
+            }
+          },
+          "fieldId": "2aa84660-f53f-4444-b63b-e44cbc27b468",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "एतिहासिक समय में इस क्षेत्र का उपयोग कैसे किया गया है? क्षेत्र से जुड़ी किन्हीं पारंपरिक मान्यताओं और संरक्षण प्रणालियों का वर्णन करें।\nप्रयास किसने शुरू किया और कब (यदि ज्ञात हो तो दिनांक का उल्लेख करें)?\t",
+              "name": "इतिहास",
+              "question": "सीसीए के इतिहास का वर्णन करें।"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "How has the area been used throughout history?",
+              "name": "History",
+              "question": "Describe the history, traditional beliefs and conservation systems of the area. Make a list of important events, mentioning years."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.DateField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "be1503ee-4707-4ef0-b853-4f4b42d2d15b",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "minMax": [],
+          "minMaxSet": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "गठन की तिथि",
+              "question": "सीसीए का गठन किस वर्ष किया गया था (यदि ज्ञात हो)?\t"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Year of Formation",
+              "question": "What year was the CCA formed, if known?"
+            }
+          },
+          "type": "YEAR",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "d80a1180-98e8-4722-90ab-6115d453d909",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "आजीविका में निर्वाह और आर्थिक लाभ दोनों शामिल हैं।\nपारिस्थितिक कार्यों या पारिस्थितिकी तंत्र सेवाओं में जल सुरक्षा, मिट्टी और जल संरक्षण शामिल हैं।\nस्व-सशक्तिकरण में भूमि का स्वामित्व और क्षेत्र तक की पहुंच सुरक्षा शामिल है।\nधार्मिक/सांस्कृतिक भावनाओं में पवित्र उपवन और अन्य पवित्र परिदृश्य शामिल हैं।\nवन्य जैव विविधता संरक्षण में प्राकृतिक आवास, वन्य जीवन के साथ-साथ विशिष्ट प्रजातियों का संरक्षण शामिल है।\nबाहरी खतरों की प्रतिक्रिया में खानों, बांधों आदि के खिलाफ प्रतिरोध शामिल है।",
+              "name": "प्रेरणाएँ",
+              "question": "समुदाय के लिए वे कारण क्या थे जिसके कारण उन्होंने सीसीए का संरक्षण शुरू किया?\n(लागू होने वाले सभी विकल्पों का चयन करें)"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Livelihoods include both subsistence and economic benefits.\nEcological functions or ecosystem services include water security, soil and water conservation.\nSelf empowerment includes land ownership and access security.\nReligious/cultural sentiments includes sacred groves and other sacred landscapes.\nWild Biodiversity conservation includes conservation of natural habitat, wildlife as well as specific species.\nResponse to external threats includes resistance against mines, dams etc.",
+              "name": "Motivations",
+              "question": "What were the reasons for the community to start conserving the area?\n(Select all that apply.)"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Livelihood",
+              "translations": {
+                "en": "Livelihood",
+                "hi": "आजीविका हेतू"
+              },
+              "value": "Livelihood",
+              "valueId": "767553e6-8504-4df8-8640-e5acdd6044f1"
+            },
+            {
+              "label": "Ecological functions",
+              "translations": {
+                "en": "Ecological functions",
+                "hi": "पारिस्थितिकी कार्य हेतू "
+              },
+              "value": "Ecological functions",
+              "valueId": "b6199d5b-2d73-4cef-bec8-eff48f0b86ea"
+            },
+            {
+              "label": "Self empowerment",
+              "translations": {
+                "en": "Self empowerment",
+                "hi": "स्व-सशक्तिकरण हेतू "
+              },
+              "value": "Self empowerment",
+              "valueId": "c7a1aeba-a7ad-4e92-ab43-7eceaf929ecf"
+            },
+            {
+              "label": "Religious/cultural sentiments",
+              "translations": {
+                "en": "Religious/cultural sentiments",
+                "hi": "धार्मिक/सांस्कृतिक भावनाएं"
+              },
+              "value": "Religious/cultural sentiments",
+              "valueId": "962ca754-8c14-4e35-a965-15857859f7e2"
+            },
+            {
+              "label": "Natural habitat and species conservation",
+              "translations": {
+                "en": "Natural habitat and species conservation",
+                "hi": "प्राकृतिक आवास और प्रजातियों के संरक्षण हेतू"
+              },
+              "value": "Natural habitat and species conservation",
+              "valueId": "90a555c2-d994-48e9-8c6f-d9f505c4c5ad"
+            },
+            {
+              "label": "Wild biodiversity conservation",
+              "translations": {
+                "en": "Wild biodiversity conservation",
+                "hi": "वन्य जैव विविधता संरक्षण"
+              },
+              "value": "Wild biodiversity conservation",
+              "valueId": "fc7f7e5c-1dee-4b1f-adc2-09fda7c94c8f"
+            },
+            {
+              "label": "Agricultural and livestock diversity conservation",
+              "translations": {
+                "en": "Agricultural and livestock diversity conservation",
+                "hi": "कृषि और पशुधन विविधता संरक्षण हेतू"
+              },
+              "value": "Agricultural and livestock diversity conservation",
+              "valueId": "f72a25b2-1805-46cc-9fed-240808ab0b90"
+            },
+            {
+              "label": "Response to external threat",
+              "translations": {
+                "en": "Response to external threat",
+                "hi": "बाहरी खतरे के जवाब हेतू"
+              },
+              "value": "Response to external threat",
+              "valueId": "f1d2b98f-f0fa-4e49-a595-4d5f346b0cad"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "cd775564-a24b-4858-a72a-3feedfa99d4e"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637227501942"
+            }
+          },
+          "fieldId": "de240d3b-8a6a-470d-955c-040863cd0209",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "कृपया संरक्षण के प्रयास शुरू करने की प्रेरणाओं के बारे में कोई अन्य विवरण दें।",
+              "name": "प्रेरणाएँ - अतिरिक्त विवरण",
+              "question": "समुदाय के लिए वे कारण क्या थे जिसके कारण उन्होंने सीसीए का संरक्षण शुरू किया?\t\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Please give any other details about the motivations for initiating the conservation efforts.\n",
+              "name": "Motivations - further details",
+              "question": "What were the reasons for the community to start conserving the area?"
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        }
+      ],
+      "createdOn": {
+        "$date": {
+          "$numberLong": "1633515231776"
+        }
+      },
+      "fieldId": "40ef1a05-5647-4e69-900e-3cbaae5d0a5a",
+      "isFilterable": false,
+      "isMasterField": true,
+      "isRequired": false,
+      "isSummaryField": false,
+      "isTitleColumn": false,
+      "translations": {
+        "hi": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "उत्पत्ति और स्थापना",
+          "question": "उत्पत्ति और स्थापना"
+        },
+        "en": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "Origin and Establishment",
+          "question": "Origin and Establishment"
+        }
+      },
+      "type": "HEADING",
+      "updatedOn": {
+        "$date": {
+          "$numberLong": "1653444686478"
+        }
+      },
+      "valueOptions": []
+    },
+    {
+      "_t": "com.strandls.cca.pojo.fields.HeaderField",
+      "children": [
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "957f6787-015a-4d04-bf53-53a94d29ee96",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "सीसीए का संघ या समूह",
+              "question": "क्या यह सीसीए किसी बड़े महासंघ का हिस्सा है या सामूहिक गठन है?\t \t\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Collective of CCAs",
+              "question": "Is this CCA a part of a larger federation or collective of CCAs?"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Yes",
+              "translations": {
+                "en": "Yes",
+                "hi": "Yes"
+              },
+              "value": "Yes",
+              "valueId": "4802a447-dd89-49f5-bfa1-0b8ac012050c"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637224670027"
+            }
+          },
+          "fieldId": "49b2da4e-5884-40d6-a9a0-712a98dc2246",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "सीसीए का संघ या समूह - अतिरिक्त विवरण",
+              "question": "यदि सीसीए किसी सामूहिक गठन या महासंघ का हिस्सा है, तो कृपया इसकी संरचना और कार्यप्रणाली के बारे में अतिरिक्त जानकारी दें।"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Collective of CCAs - further details",
+              "question": "If the CCA is part of a collective or federation, please give additional information on its structure and functioning."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637220835708"
+            }
+          },
+          "fieldId": "3afa9f71-de26-455e-9007-31f16ee00a5d",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "1. पहल में कौन सम्मिलित है और समुदाय के भीतर और समुदाय के बाहर दूसरों के साथ उनका क्या संबंध है?\n2. क्या समाज की महिलाएं, युवा और वंचित वर्ग भी इस पहल में सम्मिलित हैं? उनकी भागीदारी कैसे सुनिश्चित की जाती है?\n3. क्या सरकार, गैर सरकारी संगठन, आदि जैसी किसी बाहरी एजेंसी की संलिप्तता है?\t",
+              "name": "सम्मिलित लोग ",
+              "question": "संरक्षण पहल में कौन शामिल है?"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Who are involved in the initiative? Describe the structure and functioning of the decision-making body.\nAre women, youth, and disadvantaged sections of the society also involved in the initiative? How is their involvement ensured?\nDescribe the involvement of external agencies (government or non-government), if any.",
+              "name": "People and decision making",
+              "question": "Who is involved in the conservation initiative?"
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637224670027"
+            }
+          },
+          "fieldId": "934750b6-875f-45d9-babd-bf066a4d97ae",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Gram sabha can be the assembly of a single village, pada or hamlet or individual settlement.\nPanchayat is defined under the Panchayati Raj System.\nResource users include pastoralists, fishers and adivasis who may be part of a larger community.\nJFM committee is a forest protection committee formed under the Joint Forest Management Programme.\nCFR committee is a community forest resource management committee formed under the Forest Rights Act.\nPESA committee is a committee formed under the Panchayat Extension to Scheduled Areas Act.\nWomen’s committee is any formal or informal committee formed of only women members. This may include women SHGs, Mahila Samuh etc.\nYouth committee is any formal or informal youth group including Students Union.\nForest protection committee can be any informal committee set up for conservation.\nVan Panchayat is as defined under the Van Panchayat Act\nCouncil of multiple villages is where many villages collectively constitute a body for conservation.\nMembers of a clan/sub clan can be spread across multiple villages and panchayats.\nTraditional system of elders of one or more villages.\nOthers (please specify)",
+              "name": "निर्णय लेने वाली संस्था",
+              "question": "सीसीए के प्रबंधन के बारे में निर्णय कौन लेता है?\n(लागू होने वाले सभी विकल्पों का चयन करें)\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Gram sabha can be the assembly of a single village, pada or hamlet or individual settlement.\nPanchayat is defined under the Panchayati Raj System.\nResource users include pastoralists, fishers and adivasis who may be part of a larger community.\nJFM committee is a forest protection committee formed under the Joint Forest Management Programme.\nCFR committee is a community forest resource management committee formed under the Forest Rights Act.\nPESA committee is a committee formed under the Panchayat Extension to Scheduled Areas Act.\nWomen’s committee is any formal or informal committee formed of only women members. This may include women SHGs, Mahila Samuh etc.\nYouth committee is any formal or informal youth group including Students Union.\nForest protection committee can be any informal committee set up for conservation.\nVan Panchayat is as defined under the Van Panchayat Act\nCouncil of multiple villages is where many villages collectively constitute a body for conservation.\nMembers of a clan/sub clan can be spread across multiple villages and panchayats.\nTraditional system of elders of one or more villages.\nOthers (please specify)",
+              "name": "Decision Making Body",
+              "question": "Who makes the decisions about the management of the CCA? (Select all that apply.)"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Gram sabha ",
+              "translations": {
+                "en": "Gram sabha ",
+                "hi": "ग्राम सभा"
+              },
+              "value": "Gram sabha ",
+              "valueId": "cba00421-99ef-459a-9cd4-f184e4024f58"
+            },
+            {
+              "label": "Panchayat ",
+              "translations": {
+                "en": "Panchayat ",
+                "hi": "पंचायत"
+              },
+              "value": "Panchayat ",
+              "valueId": "f241a919-8d57-41e7-abac-cf4de00297b9"
+            },
+            {
+              "label": "Resource users  ",
+              "translations": {
+                "en": "Resource users  ",
+                "hi": "संसाधन उपयोगकर्ता "
+              },
+              "value": "Resource users  ",
+              "valueId": "0a94a32b-9289-43b0-90c8-f8095bbd79ff"
+            },
+            {
+              "label": "JFM committee ",
+              "translations": {
+                "en": "JFM committee ",
+                "hi": "जेएफएम समिति"
+              },
+              "value": "JFM committee ",
+              "valueId": "390e6363-c27a-4b55-a3ba-c89f346e161c"
+            },
+            {
+              "label": "CFR  management committee ",
+              "translations": {
+                "en": "CFR  management committee ",
+                "hi": "सीएफआर समिति"
+              },
+              "value": "CFR  management committee ",
+              "valueId": "53cd8ce4-eb35-4540-b372-c5f4bace4fc8"
+            },
+            {
+              "label": "PESA committee ",
+              "translations": {
+                "en": "PESA committee ",
+                "hi": "पेसा समिति"
+              },
+              "value": "PESA committee ",
+              "valueId": "6b00faf4-f393-4239-99e9-1c4cb38d1547"
+            },
+            {
+              "label": "Women’s committee ",
+              "translations": {
+                "en": "Women’s committee ",
+                "hi": "महिला समिति"
+              },
+              "value": "Women’s committee ",
+              "valueId": "8e27294b-425f-4bcc-a173-b4ecff0a7101"
+            },
+            {
+              "label": "Youth committee ",
+              "translations": {
+                "en": "Youth committee ",
+                "hi": "युवा समिति"
+              },
+              "value": "Youth committee ",
+              "valueId": "efbaeca6-ef1c-4ead-ba50-cd1aae8908bf"
+            },
+            {
+              "label": "Others|Forest protection committee ",
+              "translations": {
+                "en": "Others|Forest protection committee ",
+                "hi": "अन्य|वन संरक्षण समिति "
+              },
+              "value": "Forest protection committee ",
+              "valueId": "39c869bd-4fbc-41aa-833f-a817ae26b530"
+            },
+            {
+              "label": "Others|Van Panchayat ",
+              "translations": {
+                "en": "Others|Van Panchayat ",
+                "hi": "अन्य|वन पंचायत"
+              },
+              "value": "Van Panchayat ",
+              "valueId": "168e9428-1357-49c5-b91e-5f8a8698ee85"
+            },
+            {
+              "label": "Others|Council of multiple villages ",
+              "translations": {
+                "en": "Others|Council of multiple villages ",
+                "hi": "अन्य|कई गांवों की परिषद"
+              },
+              "value": "Council of multiple villages ",
+              "valueId": "8b4ef441-30ae-4e91-9bf1-a4029c093dd5"
+            },
+            {
+              "label": "Others|Members of a clan/sub clan ",
+              "translations": {
+                "en": "Others|Members of a clan/sub clan ",
+                "hi": "अन्य|गांवों और पंचायतों में फैले एक कबीले/उप कबीले के सदस्य"
+              },
+              "value": "Members of a clan/sub clan ",
+              "valueId": "dda3fceb-255f-4684-88c3-dc299e0d1f46"
+            },
+            {
+              "label": "Others|Traditional system of elders ",
+              "translations": {
+                "en": "Others|Traditional system of elders ",
+                "hi": "अन्य|बड़ों द्वारा स्थापित पारंपरिक प्रणाली "
+              },
+              "value": "Traditional system of elders ",
+              "valueId": "27c90efb-62cc-47c2-bc32-9997fd1724f2"
+            },
+            {
+              "label": "Others|Others (please specify)",
+              "translations": {
+                "en": "Others|Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "637483c5-861f-424c-9565-6c1047b199ab"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RadioField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "0ece9eb3-b28d-40c2-9302-8f6dc1ce57c2",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "पूर्व में स्थापित नियम, लिखित या अलिखित\nनियम अनौपचारिक या सांस्कृतिक प्रणालियों का हिस्सा हैं\n",
+              "name": "नियमों और विनियमों का स्वरूप",
+              "question": "नियमों और विनियमों की प्रकृति क्या है?"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Formal rules may be written or unwritten.\nInformal rules include rules that are part of cultural systems. ",
+              "name": "Rules and Regulations",
+              "question": "What is the nature of rules and regulations?"
+            }
+          },
+          "type": "SINGLE_SELECT_RADIO",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Formal",
+              "translations": {
+                "en": "Formal",
+                "hi": "औपचारिक"
+              },
+              "value": "Formal",
+              "valueId": "8cb67f5b-5d75-466f-88bf-561aaa5431fd"
+            },
+            {
+              "label": "Informal",
+              "translations": {
+                "en": "Informal",
+                "hi": "अनौपचारिक"
+              },
+              "value": "Informal",
+              "valueId": "289b4e90-fddf-4b31-b347-7703d0880eb6"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "9e5228cd-71cc-4ea9-8d83-23474420fa91"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637225379433"
+            }
+          },
+          "fieldId": "d6009386-c0e9-4d6b-a2f0-9456d25f79cb",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "1. संसाधन उपयोग, प्रबंधन और संरक्षण के लिए किन स्थानीय नियमों और विनियमों का पालन किया जाता है?\n2. स्थानीय नियमों और विनियमों के उल्लंघन से कैसे निपटा जाता है? क्या दंड की कोई व्यवस्था है? क्या अब तक ऐसी घटनाएं हुई हैं?",
+              "name": "नियम और विनियम - अतिरिक्त विवरण",
+              "question": "सीसीए के नियमों और विनियमों की सूची बनाएं, जिसमें उल्लंघनों से कैसे निपटा जाता है, उदाहरण देते हुए, यदि कोई हो, शामिल हैं।"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "1. Describe the community practices and the rules and regulations towards resource use, management and conservation.\n2. Has the community defined areas within the CCA that are no-take (where extraction of resources is prohibited) or no-go (physical presence of people is prohibited)?\n3. How are violations dealt with? Have violations occurred so far?",
+              "name": "Rules and Management Practices",
+              "question": "List the rules and regulations of the CCA, including how violations are dealt with, giving examples, if any."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1632205446931"
+            }
+          },
+          "fieldId": "7c8ef8f4-31c9-4de1-bcdf-af2ed53564fd",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Fire Management includes making fire lines, controlling fire inducing activities etc.\nRegulation of harvest includes non-timber forest produce, fish, grass, etc.\nSoil and water conservation  included making check dams, trenches, terracing etc.\nFencing includes constructing walls, live fences and other types of barriers\nRemoving encroachment includes illegal construction, farms etc.\nEx-situ conservation is the conservation of any plant or animal outside its natural habitat. It includes nurseries, breeding animals, seed banks etc.\nOthers (please specify)",
+              "name": "वर्ष के दौरान सामुदायिक गतिविधियाँ",
+              "question": "समुदाय में सीसीए क्या करता है?\n(लागू होने वाले सभी विकल्पों का चयन करें)\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Fire Management includes making fire lines, controlling fire inducing activities etc.\nRegulation of harvest includes non-timber forest produce, fish, grass, etc.\nSoil and water conservation  included making check dams, trenches, terracing etc.\nFencing includes constructing walls, live fences and other types of barriers\nRemoving encroachment includes illegal construction, farms etc.\nEx-situ conservation is the conservation of any plant or animal outside its natural habitat. It includes nurseries, breeding animals, seed banks etc.\nOthers (please specify)",
+              "name": "Community activities through the year",
+              "question": "What key activities have been undertaken in the last one year?\n(Select all that apply.)"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Fire Management",
+              "translations": {
+                "en": "Fire Management",
+                "hi": " अग्नि प्रबंधन"
+              },
+              "value": "Fire Management",
+              "valueId": "4c9f40af-ddf4-4378-a627-c5cd2de54829"
+            },
+            {
+              "label": "Regulation of harvest",
+              "translations": {
+                "en": "Regulation of harvest",
+                "hi": " उत्पाद विनियमन"
+              },
+              "value": "Regulation of harvest",
+              "valueId": "53f07d97-bd1a-410b-8ef3-369d7e4c28e9"
+            },
+            {
+              "label": "Patrolling, watch and ward",
+              "translations": {
+                "en": "Patrolling, watch and ward",
+                "hi": "पेट्रोलिंग, वॉच और वार्ड"
+              },
+              "value": "Patrolling, watch and ward",
+              "valueId": "fe992f63-2ee1-4292-aac2-9c290924017e"
+            },
+            {
+              "label": "Plantations and restoration activities",
+              "translations": {
+                "en": "Plantations and restoration activities",
+                "hi": "वृक्षारोपण और बहाली गतिविधियाँ"
+              },
+              "value": "Plantations and restoration activities",
+              "valueId": "8ec738bc-b3b3-4439-a268-f921b6d51b7f"
+            },
+            {
+              "label": "Soil and water conservation",
+              "translations": {
+                "en": "Soil and water conservation",
+                "hi": "मृदा और जल संरक्षण"
+              },
+              "value": "Soil and water conservation",
+              "valueId": "18ed786e-0063-4248-bd7b-cb72a87e2c25"
+            },
+            {
+              "label": "Fencing",
+              "translations": {
+                "en": "Fencing",
+                "hi": "बाड़ लगाना"
+              },
+              "value": "Fencing",
+              "valueId": "386cbd5c-3f84-44e4-88cd-c5bc9a2ee0ea"
+            },
+            {
+              "label": "Removing encroachment",
+              "translations": {
+                "en": "Removing encroachment",
+                "hi": "अतिक्रमण हटाना"
+              },
+              "value": "Removing encroachment",
+              "valueId": "91b6e196-ecdf-4423-bb93-91352797593a"
+            },
+            {
+              "label": "Ex-situ conservation",
+              "translations": {
+                "en": "Ex-situ conservation",
+                "hi": "एक्स-सीटू संरक्षण"
+              },
+              "value": "Ex-situ conservation",
+              "valueId": "d0e200f3-5e74-43f4-9e88-c982701e2368"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Other|?",
+              "valueId": "7f36966b-fd40-4025-af2f-3a455eb2c653"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1653063793144"
+            }
+          },
+          "fieldId": "6247d862-d895-4038-8925-af3e42077876",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Include information/statistics on area revived, species protected and any other achievements.",
+              "name": "Ecological Restoration and Biodiverstiy Conservation",
+              "question": "Describe any activities and practices that have helped in the conservation of the ecosystem or improved biodiversity."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        }
+      ],
+      "createdOn": {
+        "$date": {
+          "$numberLong": "1633515231776"
+        }
+      },
+      "fieldId": "9ddf6de5-4eec-4c67-ab2f-4d49fa4a1323",
+      "isFilterable": false,
+      "isMasterField": true,
+      "isRequired": false,
+      "isSummaryField": false,
+      "isTitleColumn": false,
+      "translations": {
+        "hi": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "शासन, प्रबंधन और संरक्षण प्रणाली",
+          "question": "शासन, प्रबंधन और संरक्षण प्रणाली"
+        },
+        "en": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "Governance, Management and Conservation Systems",
+          "question": ""
+        }
+      },
+      "type": "HEADING",
+      "updatedOn": {
+        "$date": {
+          "$numberLong": "1653444686478"
+        }
+      },
+      "valueOptions": []
+    },
+    {
+      "_t": "com.strandls.cca.pojo.fields.HeaderField",
+      "children": [
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "fdde330f-4988-4155-bb99-934993928184",
+          "isFilterable": true,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": true,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "WLPA वन्यजीव संरक्षण अधिनियम है\nबीडीए जैविक विविधता अधिनियम है\nIFA भारतीय वन अधिनियम है\nसीएफआर अनुसूचित जनजाति और अन्य पारंपरिक वन निवासी (वन अधिकारों की मान्यता) अधिनियम के तहत सामुदायिक वन संसाधन अधिकार है।\nपेसा पंचायतों का अनुसूचित क्षेत्रों का विस्तार अधिनियम है\nवन पंचायत अधिनियम के तहत घोषित वन पंचायत\nराज्य विशिष्ट कानूनों में विशेष संवैधानिक दर्जा शामिल है\nएलआर कोड भूमि राजस्व कोड है",
+              "name": "कानूनी स्थिति",
+              "question": "इस सीसीए पर लागू विभिन्न कानूनी स्थितियां क्या हैं?\n(लागू होने वाले सभी का चयन करें।)"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "WLPA is Wildlife Protection Act \nBDA is Biological Diversity Act \nIFA is Indian Forest Act\nCFR is Community Forest Resource Rights under Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act\nPESA is Panchayats Extension to Scheduled Areas Act \nVan Panchayat as declared under the Van Panchayat Act\nState specific laws include special constitutional status\nLR Code is land revenue code\"",
+              "name": "Legal Status ",
+              "question": "What are the different legal statuses applicable to this CCA?\n(Select all that apply.)"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Protected Areas under WLPA | Tiger reserve",
+              "translations": {
+                "en": "Protected Areas under WLPA | Tiger reserve",
+                "hi": "वन्यजीव संरक्षण अधिनियम (डब्ल्यूएलपीए) के तहत संरक्षित क्षेत्र | टाइगर रिजर्व"
+              },
+              "value": "Protected Areas under WLPA | Tiger reserve",
+              "valueId": "7234e83f-7878-47d2-9a0f-87d3591a0954"
+            },
+            {
+              "label": "Protected Areas under WLPA | National park",
+              "translations": {
+                "en": "Protected Areas under WLPA | National park",
+                "hi": "वन्यजीव संरक्षण अधिनियम (डब्ल्यूएलपीए) के तहत संरक्षित क्षेत्र | राष्ट्रीय उद्यान"
+              },
+              "value": "Protected Areas under WLPA | National park",
+              "valueId": "08ed0c12-e70a-4d3e-a37a-b63d7f7c5f4b"
+            },
+            {
+              "label": "Protected Areas under WLPA | Wildlife sanctuary",
+              "translations": {
+                "en": "Protected Areas under WLPA | Wildlife sanctuary",
+                "hi": "वन्यजीव संरक्षण अधिनियम (डब्ल्यूएलपीए) के तहत संरक्षित क्षेत्र | वन्यजीव अभयारण्य"
+              },
+              "value": "Protected Areas under WLPA | Wildlife sanctuary",
+              "valueId": "7a15c5a3-db76-4606-ab0b-378e828cd763"
+            },
+            {
+              "label": "Protected Areas under WLPA | Conservation reserve",
+              "translations": {
+                "en": "Protected Areas under WLPA | Conservation reserve",
+                "hi": "वन्यजीव संरक्षण अधिनियम (डब्ल्यूएलपीए) के तहत संरक्षित क्षेत्र | आरक्षित संरक्षण क्षेत्र"
+              },
+              "value": "Protected Areas under WLPA | Conservation reserve",
+              "valueId": "caeec4ea-2233-448f-b5b1-94bf16a6d1ef"
+            },
+            {
+              "label": "Protected Areas under WLPA | Community reserve",
+              "translations": {
+                "en": "Protected Areas under WLPA | Community reserve",
+                "hi": "वन्यजीव संरक्षण अधिनियम (डब्ल्यूएलपीए) के तहत संरक्षित क्षेत्र | आरक्षित सामुदायिक क्षेत्र"
+              },
+              "value": "Protected Areas under WLPA | Community reserve",
+              "valueId": "02246eea-1ef8-41f3-b0d7-28edd863c3ef"
+            },
+            {
+              "label": "Biodiversity Heritage Site under BDA ",
+              "translations": {
+                "en": "Biodiversity Heritage Site under BDA ",
+                "hi": "जैव विविधता धरोहर (बीडीए)"
+              },
+              "value": "Biodiversity Heritage Site under BDA ",
+              "valueId": "708b0aaf-21af-465a-bfe7-63d05b718438"
+            },
+            {
+              "label": "Forest Area under IFA | Reserve forest",
+              "translations": {
+                "en": "Forest Area under IFA | Reserve forest",
+                "hi": " भारतीय वन अधिनियम (आईएफए) के तहत वन क्षेत्र | आरक्षित वन"
+              },
+              "value": "Forest Area under IFA | Reserve forest",
+              "valueId": "7776bc84-b98b-4035-8d3f-b72da565ddca"
+            },
+            {
+              "label": "Forest Area under IFA | Protected forest",
+              "translations": {
+                "en": "Forest Area under IFA | Protected forest",
+                "hi": " भारतीय वन अधिनियम (आईएफए) के तहत वन क्षेत्र | संरक्षित वन"
+              },
+              "value": "Forest Area under IFA | Protected forest",
+              "valueId": "a42702b9-6a77-4623-af6b-510646d8631b"
+            },
+            {
+              "label": "Forest Area under IFA | Unclassed forest",
+              "translations": {
+                "en": "Forest Area under IFA | Unclassed forest",
+                "hi": " भारतीय वन अधिनियम (आईएफए) के तहत वन क्षेत्र | अवर्गीकृत वन "
+              },
+              "value": "Forest Area under IFA | Unclassed forest",
+              "valueId": "a833e307-2357-4382-aad0-ac176c663e97"
+            },
+            {
+              "label": "Forest Area under IFA | Village forest",
+              "translations": {
+                "en": "Forest Area under IFA | Village forest",
+                "hi": " भारतीय वन अधिनियम (आईएफए) के तहत वन क्षेत्र | ग्राम वन "
+              },
+              "value": "Forest Area under IFA |  Village forest",
+              "valueId": "891a2e16-4167-43b4-b586-5d71a568554a"
+            },
+            {
+              "label": "CFR under FRA",
+              "translations": {
+                "en": "CFR under FRA",
+                "hi": "मान्यता प्राप्त सीएफआर दावा क्षेत्र (एफआरए)"
+              },
+              "value": "CFR under FRA",
+              "valueId": "db6c0cdd-ab46-45a5-893d-35570e1356b5"
+            },
+            {
+              "label": "Comes under PESA",
+              "translations": {
+                "en": "Comes under PESA",
+                "hi": "यह क्षेत्र पीईएसए के अंतर्गत आता है"
+              },
+              "value": "Comes under PESA",
+              "valueId": "d69849ea-02b4-406f-b5aa-e8708a260d45"
+            },
+            {
+              "label": " Others |Van Panchayat ",
+              "translations": {
+                "en": " Others |Van Panchayat ",
+                "hi": " अन्य | वन पंचायत "
+              },
+              "value": "Others |Van Panchayat ",
+              "valueId": "1676e783-632e-4a48-8809-71e609b15e9f"
+            },
+            {
+              "label": "Others |Habitat Rights under FRA",
+              "translations": {
+                "en": "Others |Habitat Rights under FRA",
+                "hi": "अन्य | पर्यावास अधिकार एफआरए के अंतर्गत"
+              },
+              "value": "Others |Habitat Rights under FRA",
+              "valueId": "809e5683-3154-40e5-865e-c0e88205e3ab"
+            },
+            {
+              "label": "Others |Governed by state specific laws or special constitutional status",
+              "translations": {
+                "en": "Others |Governed by state specific laws or special constitutional status",
+                "hi": "अन्य | राज्य के लिए बने विशिष्ट कानूनों द्वारा शासित"
+              },
+              "value": "Others |Governed by state specific laws or special constitutional status",
+              "valueId": "264913c3-f0e5-4928-b10d-5da65beef80f"
+            },
+            {
+              "label": "Others |Revenue land/ pasture land under LR Code",
+              "translations": {
+                "en": "Others |Revenue land/ pasture land under LR Code",
+                "hi": "अन्य | राजस्व भूमि / चारागाह भूमि"
+              },
+              "value": "Others |Revenue land/ pasture land under LR Code",
+              "valueId": "c33b6650-85e0-4743-9c2f-a0197ff06c32"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "e4f1c5d5-d733-4e8b-b6a2-6dfbf4f9c6f6"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "ed9d5a64-e140-4c8a-ab67-c9b5fb47c8af",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "अनुसूचित जनजाति और अन्य पारंपरिक वनवासी (वन अधिकारों की मान्यता) अधिनियम, 2006 प्रयोज्यता ",
+              "name": "एफआरए  प्रयोज्यता ",
+              "question": "क्या वन अधिकार अधिनियम (एफआरए) इस क्षेत्र में लागू है?"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "FRA is Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act",
+              "name": "FRA Applicability ",
+              "question": "Is FRA applicable in the area?"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Yes",
+              "translations": {
+                "en": "Yes",
+                "hi": "Yes"
+              },
+              "value": "Yes",
+              "valueId": "50d59682-b35a-4d7b-819a-4345c9e06b54"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RadioField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "f4c0d154-0b42-4a29-ac62-2786225caf5e",
+          "isFilterable": true,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "यदि एफआरए लागू नहीं है, तो कृपया खाली छोड़ दें।",
+              "name": "सामुदायिक वन अधिकार (सीएफआर)",
+              "question": "यदि एफआरए लागू है, तो सीएफआर दावा स्थिति क्या है?"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "If FRA is not applicable, please leave blank.",
+              "name": "Community Forest Resource Rights (CFR)",
+              "question": "If FRA is applicable, what is the CFR claim status?"
+            }
+          },
+          "type": "SINGLE_SELECT_RADIO",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "CFR claim filed and in process",
+              "translations": {
+                "en": "CFR claim filed and in process",
+                "hi": "सीएफआर दावा दायर किया जा चुका है और प्रक्रिया में है"
+              },
+              "value": "CFR claim filed and in process",
+              "valueId": "6ad78b1e-b146-4b4d-8f5f-b812c9c3d9da"
+            },
+            {
+              "label": "CFR claims recognised",
+              "translations": {
+                "en": "CFR claims recognised",
+                "hi": "सीएफआर दावों को मान्यता दी जा चुकी है"
+              },
+              "value": "CFR claims recognised",
+              "valueId": "1efc1187-6f4f-4378-af4a-e459e7eafa61"
+            },
+            {
+              "label": "CFR claims rejected but not appealed",
+              "translations": {
+                "en": "CFR claims rejected but not appealed",
+                "hi": "सीएफआर दावे खारिज किये जा चुके हैं"
+              },
+              "value": "CFR claims rejected but not appealed",
+              "valueId": "3d748d15-d6cd-451c-82f0-e037aca9168d"
+            },
+            {
+              "label": "CFR claims rejected and appealed",
+              "translations": {
+                "en": "CFR claims rejected and appealed",
+                "hi": "सीएफआर दावों को खारिज कर दिया गया लेकिन अपील नहीं की गई"
+              },
+              "value": "CFR claims rejected and appealed",
+              "valueId": "0cda6445-e832-4114-a0ff-80ea10e5b149"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.DateField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "318ddf72-25fc-46b9-9e50-849cf21c37d5",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "minMax": [],
+          "minMaxSet": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "यदि एफआरए लागू नहीं है, या सीएफआर दावे दायर नहीं किए गए हैं, तो कृपया खाली छोड़ दें।",
+              "name": "सीएफआर दावा दाखिल करने की तिथि",
+              "question": "यदि सीएफआर दावे दायर किए गए हैं, तो कृपया दाखिल करने की तारीख का उल्लेख करें।\t\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "If FRA is not applicable, or CFR claims have not been filed, please leave blank.",
+              "name": "Date of filing CFR claim",
+              "question": "If CFR claims have been filed, please mention date of filing."
+            }
+          },
+          "type": "DATE",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RadioField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "4e6302e9-6459-41d7-9272-56efe2ffb735",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "यदि एफआरए लागू नहीं है, या सीएफआर दावे दायर नहीं किए गए हैं, तो कृपया खाली छोड़ दें।",
+              "name": "सीएफआर दावे का स्तर",
+              "question": "यदि सीएफआर दावे दायर किए गए हैं और प्रक्रिया में हैं, तो वे सत्यापन के किस स्तर पर हैं?\t "
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "If FRA is not applicable, or CFR claims have not been filed, please leave blank.",
+              "name": "Level of CFR claim ",
+              "question": "If CFR claims have been filed and in process, at what level of verification are they?"
+            }
+          },
+          "type": "SINGLE_SELECT_RADIO",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Gram sabha",
+              "translations": {
+                "en": "Gram sabha",
+                "hi": "ग्राम सभा"
+              },
+              "value": "Gram sabha",
+              "valueId": "39a39b5d-ea03-40e6-a211-db55dda70fd6"
+            },
+            {
+              "label": "Sub-district level ",
+              "translations": {
+                "en": "Sub-district level ",
+                "hi": "उप-जिला स्तर"
+              },
+              "value": "Sub-district level ",
+              "valueId": "284ec25c-414d-46ef-857f-0bde73bd2808"
+            },
+            {
+              "label": "District level",
+              "translations": {
+                "en": "District level",
+                "hi": "जिला स्तर"
+              },
+              "value": "District level",
+              "valueId": "7819d403-aec1-44ea-b481-db148f0c5bd4"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.DateField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637063705203"
+            }
+          },
+          "fieldId": "fcb227e4-eb3e-461d-8330-5bc1714bf7a3",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "minMax": [],
+          "minMaxSet": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "यदि सीएफआर दावों को मान्यता नहीं दी गई है, तो कृपया खाली छोड़ दें।",
+              "name": "सीएफआर दावे की मान्यता की तिथि",
+              "question": "यदि सीएफआर दावों को मान्यता दी गई है, तो कृपया मान्यता की तारीख का उल्लेख करें।\t\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "If CFR claims have not been recognised, please leave blank.",
+              "name": "Date of recognition of CFR claim",
+              "question": "If CFR claims have been recognised, mention date of recognition."
+            }
+          },
+          "type": "DATE",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637229386483"
+            }
+          },
+          "fieldId": "62b9fcdd-a728-4c43-a71f-eb37492e72fe",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "सीएफआर-अतिरिक्त विवरण",
+              "question": "यदि एफआरए लागू है लेकिन सीएफआर दावा दायर नहीं किया गया है, तो कृपया कारण बताएं।\t\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "CFR - further details ",
+              "question": "If FRA is applicable but CFR claims have not been filed, please give reasons."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RadioField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "0a7837e4-d482-4f25-bf0b-1c4f65eb6c0f",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "यदि सीएफआर दावों को मान्यता नहीं दी गई है, तो कृपया खाली छोड़ दें।",
+              "name": "प्रबंधन योजना की स्थिति",
+              "question": "यदि सीएफआर दावों को मान्यता मिल गई है, तो प्रबंधन योजना की स्थिति क्या है?\t \t"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "If CFR claims have not been recognised, please leave blank.",
+              "name": "Management plan status",
+              "question": "If CFR claims have been recognised, what is the status of the management plan?"
+            }
+          },
+          "type": "SINGLE_SELECT_RADIO",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "CFRMC constituted and endorsed by Gram Sabha",
+              "translations": {
+                "en": "CFRMC constituted and endorsed by Gram Sabha",
+                "hi": "सीएफआरएमसी (सीएफआर प्रबंधन समिति) ग्राम सभा द्वारा गठित और समर्थित"
+              },
+              "value": "CFRMC constituted and endorsed by Gram Sabha",
+              "valueId": "3897c87f-ffbd-4202-a189-fffdd14d421a"
+            },
+            {
+              "label": "Management plan not started",
+              "translations": {
+                "en": "Management plan not started",
+                "hi": "प्रबंधन योजना शुरू नहीं हुई"
+              },
+              "value": "Management plan not started",
+              "valueId": "94ee2ee9-4187-45ce-8f55-84fccb8a85d5"
+            },
+            {
+              "label": "Management plan in progress",
+              "translations": {
+                "en": "Management plan in progress",
+                "hi": "प्रबंधन योजना प्रगति पर"
+              },
+              "value": "Management plan in progress",
+              "valueId": "2fcee772-4e2a-44eb-b28b-49ef0a75fd12"
+            },
+            {
+              "label": "Management plan prepared",
+              "translations": {
+                "en": "Management plan prepared",
+                "hi": "प्रबंधन योजना तैयार"
+              },
+              "value": "Management plan prepared",
+              "valueId": "ce0fdb5b-dc8f-486b-b179-a7219868e1eb"
+            },
+            {
+              "label": "Execution of management plan not started",
+              "translations": {
+                "en": "Execution of management plan not started",
+                "hi": "प्रबंधन योजना का क्रियान्वयन शुरू नहीं"
+              },
+              "value": "Execution of management plan not started",
+              "valueId": "9b3c4794-a5f8-4366-86c4-b6839a7a5cde"
+            },
+            {
+              "label": "Execution of management In progress",
+              "translations": {
+                "en": "Execution of management In progress",
+                "hi": "प्रबंधन योजना का क्रियान्वयन प्रगति पर"
+              },
+              "value": "Execution of management In progress",
+              "valueId": "b72ffd6d-5e81-4e90-aedf-cf8f64047640"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "d9e2da26-143b-4509-b9e0-f858e6abf5af"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "1368d834-f297-428c-9aa6-52896834f3d4",
+          "isFilterable": true,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "सरकारी स्वामित्व वाले 'अन्य' में शामिल हैं विश्वविद्यालयों और रक्षा विभाग सहित\nविवादित भूमि में वह भूमि शामिल है जहां सरकार और समुदाय, कई सरकारी विभागों या कई समुदायों के बीच स्वामित्व विवादित है",
+              "name": "भूमि स्वामित्व",
+              "question": "जिस जमीन पर सीसीए स्थित है, उसका कानूनी रूप से मालिक कौन है?\n(लागू होने वाले सभी विकल्पों का चयन करें)"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Others under government owned includes universities and defence land\nContested land includes land where ownership is disputed between the government and community, multiple government departments or multiple communities",
+              "name": "Land Ownership",
+              "question": "Who legally owns the land on which the CCA is situated? (Select all that apply)"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Government owned |Forest Department",
+              "translations": {
+                "en": "Government owned |Forest Department",
+                "hi": "सरकारी स्वामित्व| वन विभाग।"
+              },
+              "value": "Government owned |Forest Department",
+              "valueId": "a4096d95-26fe-4749-a9d1-ef2e9c0caa40"
+            },
+            {
+              "label": "Government owned |Revenue Department",
+              "translations": {
+                "en": "Government owned |Revenue Department",
+                "hi": "सरकारी स्वामित्व | राजस्व विभाग।"
+              },
+              "value": "Government owned |Revenue Department",
+              "valueId": "ae22cc81-bad7-44a5-8fb3-92e87723e1f0"
+            },
+            {
+              "label": "Government owned |Irrigation/Water Resource Department",
+              "translations": {
+                "en": "Government owned |Irrigation/Water Resource Department",
+                "hi": "सरकारी स्वामित्व| सिंचाई/जल विभाग।"
+              },
+              "value": "Government owned |Irrigation/Water Resource Department",
+              "valueId": "a2cad51d-b5ad-4cd7-b999-9213febb9fee"
+            },
+            {
+              "label": "Government owned |Fisheries",
+              "translations": {
+                "en": "Government owned |Fisheries",
+                "hi": "सरकारी स्वामित्व |मत्स्य पालन विभाग"
+              },
+              "value": "Government owned |Fisheries",
+              "valueId": "4d58eaeb-7380-43dd-a88b-a5a056f1ed47"
+            },
+            {
+              "label": "Government owned |Others ",
+              "translations": {
+                "en": "Government owned |Others ",
+                "hi": "सरकारी स्वामित्व| अन्य "
+              },
+              "value": "Government owned |Others ",
+              "valueId": "8b1d80cf-878e-46bc-b5f0-6d72288ce436"
+            },
+            {
+              "label": "Community Owned",
+              "translations": {
+                "en": "Community Owned",
+                "hi": "समुदाय का स्वामित्व"
+              },
+              "value": "Community Owned",
+              "valueId": "bc063ddf-fe84-4566-afa2-1c313c1db4ec"
+            },
+            {
+              "label": "Privately Owned",
+              "translations": {
+                "en": "Privately Owned",
+                "hi": "निजी स्वामित्व"
+              },
+              "value": "Privately Owned",
+              "valueId": "00306b9c-f3ea-485d-8958-726c52d92694"
+            },
+            {
+              "label": "Contested",
+              "translations": {
+                "en": "Contested",
+                "hi": "विरोधित"
+              },
+              "value": "Contested",
+              "valueId": "4d341b18-92a9-4321-acae-37951b405029"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "b1ee2dd8-4c80-4f7b-9f09-b1f35a8dc0c2"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "64758077-7065-4fe9-9895-07c39fb6fd26",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Ramsar Sites are Wetlands of International Importance as defined by the Ramsar Convention\nOECMs are Other Effective Area-based Conservation Measures described under Convention on Biological Diversity (CBD).\nBiodiversity Hotspots are as defined by Conservation International\nOthers could include Awards of merit given by NGOs, government agencies etc.",
+              "name": "अन्य मान्यता प्राप्त दर्जा",
+              "question": "निम्नलिखित में से किस तरीके से सीसीए कोमान्यता मिली है?\n(लागू होने वाले सभी विकल्पों का चयन करें)\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Ramsar Sites are Wetlands of International Importance as defined by the Ramsar Convention\nOECMs are Other Effective Area-based Conservation Measures described under Convention on Biological Diversity (CBD).\nBiodiversity Hotspots are as defined by Conservation International\nOthers could include Awards of merit given by NGOs, government agencies etc.",
+              "name": "Other Recognised Status ",
+              "question": "Has the CCA been recognised in any of these ways?\n(Select all that apply.)\n"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Key Biodiversity Area",
+              "translations": {
+                "en": "Key Biodiversity Area",
+                "hi": "प्रमुख जैव विविधता क्षेत्र"
+              },
+              "value": "Key Biodiversity Area",
+              "valueId": "5f67432e-2d70-4cdb-b127-fdc8923c689d"
+            },
+            {
+              "label": "Important Bird Area",
+              "translations": {
+                "en": "Important Bird Area",
+                "hi": "महत्वपूर्ण पक्षी क्षेत्र"
+              },
+              "value": "Important Bird Area",
+              "valueId": "2a154717-7ac7-4673-9ebb-66a027e39c71"
+            },
+            {
+              "label": "UNESCO Man and Biosphere reserve",
+              "translations": {
+                "en": "UNESCO Man and Biosphere reserve",
+                "hi": "यूनेस्को मैन एंड बायोस्फीयर रिजर्व"
+              },
+              "value": "UNESCO Man and Biosphere reserve",
+              "valueId": "e4f90314-d9db-4765-9f9d-55c9fcd8991d"
+            },
+            {
+              "label": "Ramsar site",
+              "translations": {
+                "en": "Ramsar site",
+                "hi": "रामसर साइट"
+              },
+              "value": "Ramsar site",
+              "valueId": "8814ceff-ad31-4e61-868f-dc119fe00c7e"
+            },
+            {
+              "label": "UNESCO World Heritage site",
+              "translations": {
+                "en": "UNESCO World Heritage site",
+                "hi": "यूनेस्को विश्व धरोहर स्थल"
+              },
+              "value": "UNESCO World Heritage site",
+              "valueId": "c0de693f-5da9-4770-b5e6-44f0667a9c71"
+            },
+            {
+              "label": "Wildlife Corridor",
+              "translations": {
+                "en": "Wildlife Corridor",
+                "hi": "वन्यजीवगलियारा"
+              },
+              "value": "Wildlife Corridor",
+              "valueId": "66513c6d-4a13-4297-876f-b8feb398df4d"
+            },
+            {
+              "label": "OECM (under CBD)",
+              "translations": {
+                "en": "OECM (under CBD)",
+                "hi": "ओईसीएम (सीबीडी के तहत)"
+              },
+              "value": "OECM (under CBD)",
+              "valueId": "99139c19-506f-43ba-9061-5be8587932f2"
+            },
+            {
+              "label": "Biodiversity Hotspot",
+              "translations": {
+                "en": "Biodiversity Hotspot",
+                "hi": "Biodiversity Hotspot"
+              },
+              "value": "Biodiversity Hotspot",
+              "valueId": "3b1a8e1d-a060-4289-997b-99e458ce4d37"
+            },
+            {
+              "label": "Trans Boundary tiger conservation landscapes",
+              "translations": {
+                "en": "Trans Boundary tiger conservation landscapes",
+                "hi": "ट्रांस बाउंड्री टाइगर संरक्षण प्राकृतिक दृश्य"
+              },
+              "value": "Trans Boundary tiger conservation landscapes",
+              "valueId": "3d2e2458-b585-4e9a-af44-b5b10cee95c8"
+            },
+            {
+              "label": "Kailash sacred landscape",
+              "translations": {
+                "en": "Kailash sacred landscape",
+                "hi": "कैलाश के पवित्र स्थल"
+              },
+              "value": "Kailash sacred landscape",
+              "valueId": "843d6ef5-d8f0-4fbc-a208-35d9dc032df9"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "cf1ca595-6e6d-4915-97ac-19bcf357f4a4"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "7101c445-e40a-4764-95ca-f6a4ae6c06d3",
+          "isFilterable": true,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "पवित्र स्थल",
+              "question": "क्या सीसीए एक पवित्र उद्यान/पवित्र स्थल है?\t"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Sacred groves are patches of trees that have special religious importance for the local communities. They are usually inviolate zones where hunting and logging and sometimes even collection of produce are not permitted. In most cases, communities believe in the presence of a deity within the grove. There are also ecosystems other than forests that are considered sacred by several communities.",
+              "name": "Sacred Landscape",
+              "question": "Is the CCA a sacred grove/sacred landscape?"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Yes",
+              "translations": {
+                "en": "Yes",
+                "hi": "Yes"
+              },
+              "value": "Yes",
+              "valueId": "c3b7013b-6517-468f-bd48-d3b56c290d90"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637229386483"
+            }
+          },
+          "fieldId": "8af009f6-5fe0-4536-bf45-23b23022c3f6",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "कानूनी और अन्य मान्यताएं - अतिरिक्त विवरण",
+              "question": "कानूनी स्थिति, भूमि के स्वामित्व और मान्यता के बारे में कोई अन्य विवरण हो तो प्रदान करें।\t\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Legal and Other Recognitions- further details",
+              "question": "Provide any other details about legal status, land ownership and recognitions."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        }
+      ],
+      "createdOn": {
+        "$date": {
+          "$numberLong": "1633515231776"
+        }
+      },
+      "fieldId": "d8927711-1c8d-4791-8571-f5918124d594",
+      "isFilterable": false,
+      "isMasterField": true,
+      "isRequired": false,
+      "isSummaryField": false,
+      "isTitleColumn": false,
+      "translations": {
+        "hi": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "कानूनी और अन्य मान्यताएं",
+          "question": "कानूनी और अन्य मान्यताएं"
+        },
+        "en": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "Legal and Other Recognitions",
+          "question": ""
+        }
+      },
+      "type": "HEADING",
+      "updatedOn": {
+        "$date": {
+          "$numberLong": "1653444686478"
+        }
+      },
+      "valueOptions": []
+    },
+    {
+      "_t": "com.strandls.cca.pojo.fields.HeaderField",
+      "children": [
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "a56499a2-4f9a-45de-96eb-c6a103940493",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "निर्वाह लाभ भी शामिल करें।",
+              "name": "आजीविका और निर्वाह पर प्रभाव",
+              "question": "समुदाय ने अपने सीसीए के माध्यम से क्या आजीविका और निर्वाह लाभ प्राप्त किया है?\n(लागू होने वाले सभी विकल्पों का चयन करें)"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Include subsistence benefits as well.",
+              "name": "Impact on Livelihoods and Subsistence",
+              "question": "What livelihood benefits has the community gained through their CCA?"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Cut fodder",
+              "translations": {
+                "en": "Cut fodder",
+                "hi": " चारा कटाई"
+              },
+              "value": "Cut fodder",
+              "valueId": "f1a81197-1ac3-4034-9503-78c709ce893e"
+            },
+            {
+              "label": "Grazing",
+              "translations": {
+                "en": "Grazing",
+                "hi": "चराई"
+              },
+              "value": "Grazing",
+              "valueId": "b09b9641-ad0a-4d6d-bf1d-f031a06be772"
+            },
+            {
+              "label": "Firewood",
+              "translations": {
+                "en": "Firewood",
+                "hi": "जलाऊ लकड़ी"
+              },
+              "value": "Firewood",
+              "valueId": "920645d4-3404-4206-bafe-8b3fccfcdb32"
+            },
+            {
+              "label": "Non-timber forest produce",
+              "translations": {
+                "en": "Non-timber forest produce",
+                "hi": "गैर-इमारती वनोपज"
+              },
+              "value": "Non-timber forest produce",
+              "valueId": "c5fc4bce-d6c6-4f81-830f-08994e75d3d6"
+            },
+            {
+              "label": "Timber",
+              "translations": {
+                "en": "Timber",
+                "hi": "इमारती लकड़ी"
+              },
+              "value": "Timber",
+              "valueId": "0e1d5507-e278-48c1-8f0f-52e51762293a"
+            },
+            {
+              "label": "Fish",
+              "translations": {
+                "en": "Fish",
+                "hi": "मछली"
+              },
+              "value": "Fish",
+              "valueId": "33a5a62d-7af4-412b-95ab-2b6ec02c5cda"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "700240f3-b10d-47d0-9ec4-69d79fec8eac"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "a188d345-a4a3-4d03-bfe8-0596374ae2a5",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "सामाजिक प्रभाव  ",
+              "question": "सीसीए के कारण सामाजिक प्रभाव क्या है?\n(लागू होने वाले सभी विकल्पों का चयन करें)"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Social Impacts",
+              "question": "What is the social impact due to the CCA?"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Community empowerment",
+              "translations": {
+                "en": "Community empowerment",
+                "hi": "सामुदायिक सशक्तिकरण"
+              },
+              "value": "Community empowerment",
+              "valueId": "924b756d-9c1a-4da2-b77c-f7199a6d34cd"
+            },
+            {
+              "label": "Empowerment of women/youth/disadvantaged sections",
+              "translations": {
+                "en": "Empowerment of women/youth/disadvantaged sections",
+                "hi": "महिलाओं/युवाओं/वंचित वर्गों का सशक्तिकरण"
+              },
+              "value": "Empowerment of women/youth/disadvantaged sections",
+              "valueId": "6e58ca89-ed1d-4538-8466-b083f86c9fd7"
+            },
+            {
+              "label": "Assured land ownership or access",
+              "translations": {
+                "en": "Assured land ownership or access",
+                "hi": "सुनिश्चित भूमि स्वामित्व या भू-पहुंच"
+              },
+              "value": "Assured land ownership or access",
+              "valueId": "7f164787-9ae6-4707-9490-ef975b99023a"
+            },
+            {
+              "label": "Revival or continuation of cultural/religious associations",
+              "translations": {
+                "en": "Revival or continuation of cultural/religious associations",
+                "hi": "सांस्कृतिक/धार्मिक संघों का पुनरुद्धार"
+              },
+              "value": "Revival of cultural/religious associations",
+              "valueId": "ae7da600-fdf1-461b-bec2-71faa4d75fec"
+            },
+            {
+              "label": "Mitigation of external threat",
+              "translations": {
+                "en": "Mitigation of external threat",
+                "hi": "बाहरी खतरे में कमी"
+              },
+              "value": "Mitigation of external threat",
+              "valueId": "08124e23-1398-4c3b-a55d-825f9ab3caa6"
+            },
+            {
+              "label": "Prevention of distress outmigration",
+              "translations": {
+                "en": "Prevention of distress outmigration",
+                "hi": "संकट प्रवास में रोकथाम"
+              },
+              "value": "Prevention of distress outmigration",
+              "valueId": "cfe2380a-2983-4abf-ade2-0605727d4b77"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "d28f29c6-da3d-48ae-8a46-7b494fb48cf1"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "19f01a30-dc1e-48b6-a1bb-77b07834073b",
+          "isFilterable": true,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "पारिस्थितिक सेवाओं में शामिल जैसे जल आपूर्ति और मिट्टी की उर्वरता",
+              "name": "पारिस्थितिक प्रभाव",
+              "question": "सीसीए के कारण पारिस्थितिक प्रभाव क्या है?\n(लागू होने वाले सभी विकल्पों का चयन करें)"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Ecological services include water supply and soil fertility",
+              "name": "Ecological Impact",
+              "question": "What is the ecological impact due to the CCA?"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Natural habitat preservation",
+              "translations": {
+                "en": "Natural habitat preservation",
+                "hi": "प्राकृतिक आवास में सुधार और बहाली"
+              },
+              "value": "Natural habitat restoration",
+              "valueId": "fda852f5-f985-492d-9855-23b60de178d7"
+            },
+            {
+              "label": "Good diversity and population of wildlife",
+              "translations": {
+                "en": "Good diversity and population of wildlife",
+                "hi": "वन्यजीवों की विविधता और जनसंख्या में वृद्धि"
+              },
+              "value": "Increase in diversity and population of wild life",
+              "valueId": "d8817b77-3c86-4bb2-80f0-6be748ce5e28"
+            },
+            {
+              "label": "Good diversity of crops, livestock, fish",
+              "translations": {
+                "en": "Good diversity of crops, livestock, fish",
+                "hi": "फसलों, पशुओं, मछलियों की विविधता में वृद्धि"
+              },
+              "value": "Increase in diversity of crops, livestock, fish",
+              "valueId": "150d7b9f-56d0-4cb3-82c4-d7e97428398c"
+            },
+            {
+              "label": "Improved/sustained ecological services",
+              "translations": {
+                "en": "Improved/sustained ecological services",
+                "hi": "Improvement in ecological services such as water supply and soil fertility"
+              },
+              "value": "Improvement ecological services such as water supply and soil fertility",
+              "valueId": "d3a6fe58-fd22-4a10-bc63-7e6ddac10bae"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "41be8a3c-ff43-475e-a1d8-23c821e7908f"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637229386483"
+            }
+          },
+          "fieldId": "238fc3e9-5b45-4efc-98e0-b3dd3ae341cc",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "इस पहल ने समय के साथ क्षेत्र के स्थानीय वनस्पतियों और जीवों को कैसे प्रभावित किया है?\nसमुदाय पर संरक्षण पहल के किसी भी सामाजिक, आर्थिक, सांस्कृतिक या राजनीतिक प्रभाव का वर्णन करें।\t",
+              "name": "प्रभाव - अतिरिक्त विवरण",
+              "question": "कृपया समुदाय और पारिस्थितिकी तंत्र पर सीसीए के किसी भी प्रभाव के बारे में अधिक जानकारी दें।"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "How has the initiative impacted the local flora and fauna of the region over time?\nDescribe any social, economic, cultural or political impact that the conservation initiative has had on the community.",
+              "name": "Impact - further details",
+              "question": " Please give further details of any impacts of the CCA on the community and ecosystem."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637229386483"
+            }
+          },
+          "fieldId": "66d277da-bb14-48ff-9f4c-ddc292567ee4",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "(उदाहरण के लिए, प्रभावी कानूनी नीतियां, बाहरी सहायता, आदि)\t\n",
+              "name": "अवसर",
+              "question": "वे कौन से कारक हैं जिन्होंने संरक्षण का समर्थन किया है?"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "These could include effective legal policies, help from an NGO or government programme, financial help etc.",
+              "name": "Opportunities ",
+              "question": "What are the factors that have supported conservation? "
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "41440a76-d80f-4531-b43b-f48b9c72ab2a",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "आंतरिक खतरे और चुनौतियाँ",
+              "question": "पहल में सामने आने वाले कुछ आंतरिक खतरे और चुनौतियाँ क्या हैं?\n(लागू होने वाले सभी विकल्पों का चयन करें)"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Internal Threats and Challenges",
+              "question": "What are the internal threats and challenges faced by the initiative?"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Internal differences and inequities",
+              "translations": {
+                "en": "Internal differences and inequities",
+                "hi": "आंतरिक मतभेद और असमानताएं"
+              },
+              "value": "Internal differences and inequities",
+              "valueId": "4fd4df85-eefd-4784-ae04-695942ad2f7b"
+            },
+            {
+              "label": "Conflict with other communities",
+              "translations": {
+                "en": "Conflict with other communities",
+                "hi": "अन्य समुदायों के साथ संघर्ष"
+              },
+              "value": "Conflict with other communities",
+              "valueId": "ee1a360f-a31b-4637-b65e-d1ca0a393bf9"
+            },
+            {
+              "label": "Reduced awareness about biodiversity and its value",
+              "translations": {
+                "en": "Reduced awareness about biodiversity and its value",
+                "hi": "जैव विविधता और इसके मूल्य के बारे में जागरूकता में कमी"
+              },
+              "value": "Reduced awareness about biodiversity and its value",
+              "valueId": "59abe7c4-fe6a-4219-beb8-394eaf883d11"
+            },
+            {
+              "label": "Lack of resources and pressures of poverty",
+              "translations": {
+                "en": "Lack of resources and pressures of poverty",
+                "hi": "संसाधनों की कमी और गरीबी का दबाव "
+              },
+              "value": "Lack of resources and pressures of poverty",
+              "valueId": "f0db4843-e061-4cb0-8dc4-0be68e9d503d"
+            },
+            {
+              "label": "Over-harvesting from within the community",
+              "translations": {
+                "en": "Over-harvesting from within the community",
+                "hi": "अधिक कटाई समुदाय के भीतर से"
+              },
+              "value": "Over-harvesting from within the community",
+              "valueId": "4cdda0c4-e9b5-4ed9-87c1-4d6b298bc683"
+            },
+            {
+              "label": "Changing socio-cultural practices and aspirations",
+              "translations": {
+                "en": "Changing socio-cultural practices and aspirations",
+                "hi": "सामाजिक-सांस्कृतिक प्रथाओं और आकांक्षाओं को बदलना"
+              },
+              "value": "Changing socio-cultural practices and aspirations",
+              "valueId": "a974c07a-a949-4571-8fde-02e2909f0a97"
+            },
+            {
+              "label": "Outmigration",
+              "translations": {
+                "en": "Outmigration",
+                "hi": "पलायन"
+              },
+              "value": "Outmigration",
+              "valueId": "91a958bd-248e-495f-ba49-4a6ff37a39e7"
+            },
+            {
+              "label": "Others (please specify)",
+              "translations": {
+                "en": "Others (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Others|?",
+              "valueId": "b007d05c-9295-45ee-ae3b-f9f3b329cd05"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "41440a76-d80f-4531-b43b-f48b9c72ab2b",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "प्रतिबंधात्मक कानून और नीतियां जिनमें अतिव्यापी संरक्षित क्षेत्र, प्रथागत अधिकारों की मान्यता में कमी शामिल हैं\nUnwanted development pressures are changes brought about by current model of development, including urbanisation, industrialisation, consumerism\nअवांछितनिष्कर्षण जैसे, शिकार, खनन, लॉगिंग या मछली पकड़ना\nजैव विविधता या प्रकृति की गुणवत्ता या मात्रा में गिरावट (जैसे, स्वच्छ पानी और हवा, स्वस्थ मिट्टी\nजलवायु परिवर्तन जैसे, तेजी से बदलते तापमान और वर्षा पैटर्न, समुद्र के स्तर में वृद्धि, अतिविषम मौसम संबंधी घटनाएं\nमेगा-विकास परियोजनाओं में बड़े बांध, राजमार्ग, सौर और पवन फार्म, खनन आदि शामिल हैं।",
+              "name": "बाहरी खतरे और चुनौतियाँ",
+              "question": "पहल में सामने आने वाले कुछ बाहरी खतरे और चुनौतियाँ क्या हैं?\n(लागू होने वाले सभी विकल्पों का चयन करें)\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "Restrictive laws and policies could include protected areas overlapping, lack of recognition of customary rights, etc.\nUnwanted development pressures are changes brought about by current model of development, including urbanisation, industrialisation, consumerism\nExtraction refers to activities such as hunting, quarrying, logging or fishing by outsiders\nDecline in biodiversity includes decline in both quality and quantity of biodiversity and ecosystem\nClimate change impacts include rapidly changing temperature and precipitation patterns, sea level rise, extreme weather events, etc.\nMega-development projects include big dams, highways, solar and wind farms, mining etc.",
+              "name": "External Threats and Challenges",
+              "question": "What are the external threats and challenges faced by the initiative ?"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "Restrictive laws and policies ",
+              "translations": {
+                "en": "Restrictive laws and policies ",
+                "hi": "प्रतिबंधात्मक कानून और नीतियां"
+              },
+              "value": "Restrictive laws and policies ",
+              "valueId": "858cd0bb-8dfa-40a1-b5e4-ab467a535311"
+            },
+            {
+              "label": "Land ownership or tenure issues",
+              "translations": {
+                "en": "Land ownership or tenure issues",
+                "hi": "भूमि स्वामित्व या कार्यकाल संबंधित मुद्दे"
+              },
+              "value": "Land ownership or tenure issues",
+              "valueId": "576399a4-1757-4f0c-9252-e5022251be44"
+            },
+            {
+              "label": "Unwanted development pressures",
+              "translations": {
+                "en": "Unwanted development pressures",
+                "hi": "अवांछित विकास संबंधित दबाव"
+              },
+              "value": "Unwanted development pressures",
+              "valueId": "9efa46d9-be51-40b0-b209-6b6a52231d68"
+            },
+            {
+              "label": "Unwanted extraction ",
+              "translations": {
+                "en": "Unwanted extraction ",
+                "hi": "अवांछितनिष्कर्षण"
+              },
+              "value": "Unwanted extraction ",
+              "valueId": "ada97868-3b55-4f3f-8fbf-15ef05b986c1"
+            },
+            {
+              "label": "Negative impacts of tourism",
+              "translations": {
+                "en": "Negative impacts of tourism",
+                "hi": "पर्यटन के नकारात्मक प्रभाव"
+              },
+              "value": "Negative impacts of tourism",
+              "valueId": "36c1d100-4210-40cd-8a91-78df80e1e152"
+            },
+            {
+              "label": "Decline in biodiversity ",
+              "translations": {
+                "en": "Decline in biodiversity ",
+                "hi": "जैव विविधता या प्रकृति की गुणवत्ता या मात्रा में गिरावट "
+              },
+              "value": "Decline in biodiversity ",
+              "valueId": "82c43914-5cb0-49a5-b601-f8b1c5f0c5a4"
+            },
+            {
+              "label": "Climate change impacts",
+              "translations": {
+                "en": "Climate change impacts",
+                "hi": "जलवायु परिवर्तन प्रभाव"
+              },
+              "value": "Climate change impacts",
+              "valueId": "9804c635-880b-440b-8991-88886aae06a3"
+            },
+            {
+              "label": "Invasive or non-native species",
+              "translations": {
+                "en": "Invasive or non-native species",
+                "hi": "आक्रामक या गैर-देशी प्रजातियां"
+              },
+              "value": "Invasive or non-native species",
+              "valueId": "442bde62-6be1-4bb4-99c3-d3df19b21ed2"
+            },
+            {
+              "label": "Mega-development projects",
+              "translations": {
+                "en": "Mega-development projects",
+                "hi": "मेगा-विकास परियोजनाएं"
+              },
+              "value": "Mega-development projects",
+              "valueId": "c3a294fd-22a7-4bc9-b44c-36da96ae69cc"
+            },
+            {
+              "label": "Other (please specify)",
+              "translations": {
+                "en": "Other (please specify)",
+                "hi": "अन्य (निर्दिष्ट करें)"
+              },
+              "value": "Other|?",
+              "valueId": "08051339-4970-463e-8f6b-1f015734817b"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637229386483"
+            }
+          },
+          "fieldId": "07bd5dbd-1330-4f31-bea8-1b8d4b492dc0",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "खतरे और चुनौतियाँ- अतिरिक्त विवरण",
+              "question": "कृपया समुदाय के सामने आने वाले खतरों और चुनौतियों के बारे में अधिक जानकारी दें।\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Threats and challenges - further details",
+              "question": " Please give further details of threats and challenges faced by the community."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637849181201"
+            }
+          },
+          "fieldId": "01b2cfdf-6acb-4997-938c-e62a2ba37f51",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "इसमें वित्तीय, कानूनी, तकनीकी, शिक्षा और अन्य प्रकार की सहायता शामिल हो सकती है।",
+              "name": "आवश्यकताएँ",
+              "question": "समुदाय को जिस प्रकार के समर्थन की सबसे अधिक आवश्यकता है।\t"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "This could include financial, legal, technical, educational and other types of support. Or it could be a need for collaborating and communicating with other CCAs.",
+              "name": "Needs",
+              "question": "What kind of support does the community need at present?"
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637849181201"
+            }
+          },
+          "fieldId": "c91d92f1-482c-472f-a766-c3f8eccf989f",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "भविष्य की योजनाएं",
+              "question": "क्या समुदाय के पास क्षेत्र के लिए भविष्य के लिए कोई योजनाएं है?\t\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Future Plans",
+              "question": "What future plans does the community have for the CCA?"
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        }
+      ],
+      "createdOn": {
+        "$date": {
+          "$numberLong": "1633515231776"
+        }
+      },
+      "fieldId": "e47fdbaf-aa8b-4cc4-8e0f-8a64ac30aa09",
+      "isFilterable": false,
+      "isMasterField": true,
+      "isRequired": false,
+      "isSummaryField": false,
+      "isTitleColumn": false,
+      "translations": {
+        "hi": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "प्रभाव, अवसर और चुनौतियाँ",
+          "question": "प्रभाव, अवसर और चुनौतियाँ"
+        },
+        "en": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "Impact and Learnings",
+          "question": "What are the impacts and learnings"
+        }
+      },
+      "type": "HEADING",
+      "updatedOn": {
+        "$date": {
+          "$numberLong": "1653444686478"
+        }
+      },
+      "valueOptions": []
+    },
+    {
+      "_t": "com.strandls.cca.pojo.fields.HeaderField",
+      "children": [
+        {
+          "_t": "com.strandls.cca.pojo.fields.CheckboxField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637849181201"
+            }
+          },
+          "fieldId": "927cc813-2d4f-44f9-8853-0eda20397c53",
+          "isFilterable": true,
+          "isMasterField": true,
+          "isRequired": true,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "'सार्वजनिक रूप से उपलब्ध स्रोतों से' इंगित करता है कि डेटा सार्वजनिक डोमेन में उपलब्ध पहले प्रकाशित कार्यों से क्यूरेट किया गया है।\n'समुदाय के सदस्यों द्वारा' इंगित करता है कि सूचना एक या अधिक समुदाय के सदस्यों द्वारा दी जाती है, बिना पूरे समुदाय की भागीदारी और सहमति के।\n'बाहरी इकाई द्वारा' एक या एक से अधिक समुदाय के सदस्य/सदस्यों की अनुमति से किसी बाहरी व्यक्ति या संगठन द्वारा दी गई जानकारी को संदर्भित करता है, लेकिन पूरे समुदाय की भागीदारी और सहमति के बिना।\n'संपूर्ण समुदाय की भागीदारी और सहमति के माध्यम से' का अर्थ है कि प्रलेखन पूरे समुदाय की भागीदारी और मुफ्त, पूर्व, सूचित सहमति के साथ किया जाता है।",
+              "name": "सूचना स्रोत",
+              "question": "इस प्रश्नावली में दी गई जानकारी का स्रोत क्या है?\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "'From publicly available sources' indicates that data is curated from previously published works available in the public domain.\n'By community members' indicates that information is given by one or more community members, without the participation and consent of the entire community.\n'By external entity' refers to information given by an external individual or organisation with the permission of one or more community member/s, but without the participation and consent of the entire community.\n'Through participation and consent of entire community' means that documentation is done with the participation and free, prior, informed consent of the entire community.",
+              "name": "Data Source",
+              "question": "What is the source of information provided in this questionnaire?"
+            }
+          },
+          "type": "MULTI_SELECT_CHECKBOX",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "From publicly available sources",
+              "translations": {
+                "en": "From publicly available sources",
+                "hi": " सार्वजनिक रूप से उपलब्ध स्रोतों से"
+              },
+              "value": "from publicly available sources",
+              "valueId": "5de0f260-f283-454b-94b9-4825ee98e449"
+            },
+            {
+              "label": "By community member/s",
+              "translations": {
+                "en": "By community member/s",
+                "hi": "समुदाय के सदस्य/सदस्यों द्वारा"
+              },
+              "value": "by community member/s",
+              "valueId": "28ecaea9-aae8-4857-bb24-76069d96c7ba"
+            },
+            {
+              "label": "By external entity with permission of community member",
+              "translations": {
+                "en": "By external entity with permission of community member",
+                "hi": "समुदाय के सदस्य की अनुमति के साथ बाहरी इकाई द्वारा  "
+              },
+              "value": "by external entity with permission of community member",
+              "valueId": "d36dae82-0b32-4580-9f67-4b3df96fae22"
+            },
+            {
+              "label": "Through participation and consent of entire community",
+              "translations": {
+                "en": "Through participation and consent of entire community",
+                "hi": "पूरे समुदाय की भागीदारी और सहमति के माध्यम से "
+              },
+              "value": "through participation and consent of entire community",
+              "valueId": "8ed59bd8-aaa5-469e-8b97-20b5af0be7c3"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.TextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637065280002"
+            }
+          },
+          "fieldId": "d37003de-7f26-4557-9a46-bf233ddca7c2",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": true,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "सूचना प्रदाता",
+              "question": "कृपया इस प्रश्नावली को भरने वाले व्यक्ति या संगठन का नाम और संपर्क विवरण दें।\t"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Information Provider",
+              "question": "Please give the name and contact details of the person or organisation who filled out this questionnaire."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.DateField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637591368712"
+            }
+          },
+          "fieldId": "a0e2e5ea-506a-4a95-bdc6-a2a9c7e1098c",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "minMax": [],
+          "minMaxSet": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "अध्ययन की तिथि",
+              "question": "अध्ययन की तारीख क्या थी? \t"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Year of Study",
+              "question": " Provide the date when this information was initially collected."
+            }
+          },
+          "type": "YEAR",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        }
+      ],
+      "createdOn": {
+        "$date": {
+          "$numberLong": "1633515231776"
+        }
+      },
+      "fieldId": "f2d8c95d-4900-437d-a0cb-a78b129064a3",
+      "isFilterable": false,
+      "isMasterField": true,
+      "isRequired": false,
+      "isSummaryField": false,
+      "isTitleColumn": false,
+      "translations": {
+        "hi": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "डाटा योगदानकर्ता",
+          "question": "डाटा योगदानकर्ता"
+        },
+        "en": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "Data Contributor",
+          "question": ""
+        }
+      },
+      "type": "HEADING",
+      "updatedOn": {
+        "$date": {
+          "$numberLong": "1653444686478"
+        }
+      },
+      "valueOptions": []
+    },
+    {
+      "_t": "com.strandls.cca.pojo.fields.HeaderField",
+      "children": [
+        {
+          "_t": "com.strandls.cca.pojo.fields.SingleSelectField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1643723028757"
+            }
+          },
+          "fieldId": "ed9950b6-df27-428b-af0b-9f642ff91650",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "All data on the portal are shared on Create Commons Licenses. Refer https://creativecommons.org/",
+              "name": "License",
+              "question": "Pick one of the Create Commons license for the data"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "All data on the portal are shared on Create Commons Licenses. Refer https://creativecommons.org/",
+              "name": "License",
+              "question": "Pick one of the Create Commons license for the data"
+            }
+          },
+          "type": "SINGLE_SELECT_DROPDOWN",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": [
+            {
+              "label": "CC BY Attribution",
+              "translations": {
+                "en": "CC BY Attribution",
+                "hi": "CC BY Attribution"
+              },
+              "value": "https://creativecommons.org/licenses/by/4.0/",
+              "valueId": "eb7fb134-71a7-4627-8e03-8b3dfab6a566"
+            },
+            {
+              "label": "CC BY-SA Attribution-ShareAlike",
+              "translations": {
+                "en": "CC BY-SA Attribution-ShareAlike",
+                "hi": "CC BY-SA Attribution-ShareAlike"
+              },
+              "value": "https://creativecommons.org/licenses/by-sa/4.0",
+              "valueId": "2878f770-734a-4029-ab8a-9a22a6cf8924"
+            },
+            {
+              "label": "CC BY-ND Attribution-NoDerivs",
+              "translations": {
+                "en": "CC BY-ND Attribution-NoDerivs",
+                "hi": "CC BY-ND Attribution-NoDerivs"
+              },
+              "value": "https://creativecommons.org/licenses/by-nd/4.0",
+              "valueId": "4b12fc58-dcfe-4ed1-b9d9-78fe4539f53b"
+            },
+            {
+              "label": "CC BY-NC Attribution-NonCommercial",
+              "translations": {
+                "en": "CC BY-NC Attribution-NonCommercial",
+                "hi": "CC BY-NC Attribution-NonCommercial"
+              },
+              "value": "https://creativecommons.org/licenses/by-nc/4.0",
+              "valueId": "11343ade-0cb2-4ed7-af60-3fbf363fcfd2"
+            },
+            {
+              "label": "CC BY-NC-SA  Attribution-NonCommercial-ShareAlike",
+              "translations": {
+                "en": "CC BY-NC-SA  Attribution-NonCommercial-ShareAlike",
+                "hi": "CC BY-NC-SA  Attribution-NonCommercial-ShareAlike"
+              },
+              "value": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+              "valueId": "79754c70-f8c8-4145-b110-afed2407ff00"
+            },
+            {
+              "label": "CC BY-NC-ND Attribution-NonCommercial-NoDerivs",
+              "translations": {
+                "en": "CC BY-NC-ND Attribution-NonCommercial-NoDerivs",
+                "hi": "CC BY-NC-ND Attribution-NonCommercial-NoDerivs"
+              },
+              "value": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+              "valueId": "37ff0dbd-e814-457d-98df-629d5d80bde0"
+            }
+          ]
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.TextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "a9554870-99e8-4a47-8578-ae5baff28c51",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "विशिष्ट शब्दों की शब्दावली",
+              "question": "कृपया प्रश्नावली में प्रयुक्त किसी स्थानीय या विशिष्ट शब्दावली के अर्थ लिखें।\t"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Glossary of Vernacular terms",
+              "question": "List any words in regional languages used in this study and their meanings."
+            }
+          },
+          "type": "TEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.TextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1633515231776"
+            }
+          },
+          "fieldId": "cd3eab85-38ba-4155-9da9-f8076858e878",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "संदर्भ",
+              "question": "कृपया प्रश्नावली भरने के लिए संदर्भित किए गए किसी भी बाहरी स्रोत को उल्लेखित/शामिल करें।\t\n"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "References",
+              "question": "List any articles, journals, websites etc. referred to while filling out this information."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        }
+      ],
+      "createdOn": {
+        "$date": {
+          "$numberLong": "1633515231776"
+        }
+      },
+      "fieldId": "c987f60e-ec58-4261-a039-25eeeed5c4e2",
+      "isFilterable": false,
+      "isMasterField": true,
+      "isRequired": false,
+      "isSummaryField": false,
+      "isTitleColumn": false,
+      "translations": {
+        "hi": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "संदर्भ और शब्दावली",
+          "question": "संदर्भ और शब्दावली"
+        },
+        "en": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "References and Glossary",
+          "question": ""
+        }
+      },
+      "type": "HEADING",
+      "updatedOn": {
+        "$date": {
+          "$numberLong": "1653444686478"
+        }
+      },
+      "valueOptions": []
+    },
+    {
+      "_t": "com.strandls.cca.pojo.fields.HeaderField",
+      "children": [
+        {
+          "_t": "com.strandls.cca.pojo.fields.RichtextField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637849181201"
+            }
+          },
+          "fieldId": "24914158-9356-4624-bf26-73516c880c62",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "समाचार और अपडेट",
+              "question": "कृपया इस सीसीए के बारे में मौजूदा जानकारी के लिंक या संदर्भ प्रदान करें\t"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "News and Updates",
+              "question": "Give links to any latest news about this CCA."
+            }
+          },
+          "type": "RICHTEXT",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        },
+        {
+          "_t": "com.strandls.cca.pojo.fields.FileField",
+          "children": [],
+          "createdOn": {
+            "$date": {
+              "$numberLong": "1637849181201"
+            }
+          },
+          "fieldId": "ac9cc9c7-c4ca-4a5f-a411-cd46378d12bc",
+          "isFilterable": false,
+          "isMasterField": true,
+          "isRequired": false,
+          "isSummaryField": false,
+          "isTitleColumn": false,
+          "translations": {
+            "hi": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "मल्टीमीडिया",
+              "question": "टेक्स्ट, लिंक, फोटो आदि"
+            },
+            "en": {
+              "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+              "helpText": "",
+              "name": "Multimedia",
+              "question": "Upload images and videos of the CCA."
+            }
+          },
+          "type": "FILE",
+          "updatedOn": {
+            "$date": {
+              "$numberLong": "1653444686478"
+            }
+          },
+          "valueOptions": []
+        }
+      ],
+      "createdOn": {
+        "$date": {
+          "$numberLong": "1637849181201"
+        }
+      },
+      "fieldId": "dd521ba0-d5f2-46b2-b351-bb89920b274f",
+      "isFilterable": false,
+      "isMasterField": true,
+      "isRequired": false,
+      "isSummaryField": false,
+      "isTitleColumn": false,
+      "translations": {
+        "hi": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "मल्टीमीडिया, समाचार और अपडेट",
+          "question": "मल्टीमीडिया, समाचार और अपडेट"
+        },
+        "en": {
+          "_t": "com.strandls.cca.pojo.CCAFieldTranslations",
+          "helpText": "",
+          "name": "Multimedia, News and Updates",
+          "question": "Multimedia, News and Updates"
+        }
+      },
+      "type": "HEADING",
+      "updatedOn": {
+        "$date": {
+          "$numberLong": "1653444686478"
+        }
+      },
+      "valueOptions": []
+    }
+  ],
+}

@@ -1,0 +1,1508 @@
+{
+  "Country": [
+    {
+      "label": "Bangladesh",
+      "translations": {
+        "en": "Bangladesh",
+        "hi": "बांग्लादेश"
+      },
+      "value": "Bangladesh",
+      "valueId": "ec95ba1f-bdcb-4ee9-85c5-97e5c2593186"
+    },
+    {
+      "label": "Bhutan",
+      "translations": {
+        "en": "Bhutan",
+        "hi": "भूटान"
+      },
+      "value": "Bhutan",
+      "valueId": "cfc92787-2ad7-4165-b2cc-50fa2539e489"
+    },
+    {
+      "label": "India",
+      "translations": {
+        "en": "India",
+        "hi": "भारत"
+      },
+      "value": "India",
+      "valueId": "968c048f-dc23-4805-badb-028102296d46"
+    },
+    {
+      "label": "Maldives",
+      "translations": {
+        "en": "Maldives",
+        "hi": "मालदीव"
+      },
+      "value": "Maldives",
+      "valueId": "8309f55d-1f86-407b-a5c3-fea797a39605"
+    },
+    {
+      "label": "Nepal",
+      "translations": {
+        "en": "Nepal",
+        "hi": "नेपाल"
+      },
+      "value": "Nepal",
+      "valueId": "e6e6db1b-9b12-47b1-8720-062f4ada20df"
+    },
+    {
+      "label": "Pakistan",
+      "translations": {
+        "en": "Pakistan",
+        "hi": "पाकिस्तान"
+      },
+      "value": "Pakistan",
+      "valueId": "fb9fa122-c645-4c05-a3d6-dadc4cb10de2"
+    },
+    {
+      "label": "Sri Lanka",
+      "translations": {
+        "en": "Sri Lanka",
+        "hi": "श्रीलंका"
+      },
+      "value": "Sri Lanka",
+      "valueId": "1e94b572-e027-4b19-866a-2a3fc1351c28"
+    }
+  ],
+  "Ecosystem Type": [
+    {
+      "label": "Forest",
+      "translations": {
+        "en": "Forest",
+        "hi": "वन"
+      },
+      "value": "Forest",
+      "valueId": "548358f1-2ab8-43ae-8ad1-a15cd60b99a7"
+    },
+    {
+      "label": "Grasslands",
+      "translations": {
+        "en": "Grasslands",
+        "hi": "घास के मैदान"
+      },
+      "value": "Grasslands",
+      "valueId": "ff6953cd-594e-4fee-b60c-fd8faef67111"
+    },
+    {
+      "label": "Wetlands and rivers",
+      "translations": {
+        "en": "Wetlands and rivers",
+        "hi": "नदी/ तालाब/ झील"
+      },
+      "value": "Wetlands and rivers",
+      "valueId": "22dc53ad-4cf5-44be-9d7c-71c1cde86d5b"
+    },
+    {
+      "label": "Marine and coastal",
+      "translations": {
+        "en": "Marine and coastal",
+        "hi": "समुद्री और तटीय"
+      },
+      "value": "Marine and coastal",
+      "valueId": "1f03dcb2-ffda-481f-b174-a4379641f736"
+    },
+    {
+      "label": "Others|Rocky Outcrops",
+      "translations": {
+        "en": "Others|Rocky Outcrops",
+        "hi": "अन्य|रॉकी आउटक्रॉप्स (पृथ्वी की सतह से ऊपर निकला चट्टानी भाग)"
+      },
+      "value": "Others|Rocky Outcrops",
+      "valueId": "b625eb09-5d31-4286-a495-33bf9db77d96"
+    },
+    {
+      "label": "Others|Desert",
+      "translations": {
+        "en": "Others|Desert",
+        "hi": "अन्य|रेगिस्तानी"
+      },
+      "value": "Others|Desert",
+      "valueId": "1dab1ee6-b7ba-452f-b8b0-b7ccecc732ae"
+    },
+    {
+      "label": "Others|Ex-situ conservation sites",
+      "translations": {
+        "en": "Others|Ex-situ conservation sites",
+        "hi": "अन्य|कृत्रिम/ मानव निर्मित संरक्षण स्थल"
+      },
+      "value": "Others|Ex-situ conservation sites",
+      "valueId": "1f9f8841-7642-4339-b999-730d1a9b23a3"
+    },
+    {
+      "label": "Others|Urban Areas",
+      "translations": {
+        "en": "Others|Urban Areas",
+        "hi": "अन्य|शहरी क्षेत्र"
+      },
+      "value": "Others|Urban Areas",
+      "valueId": "b76c13f3-598c-45d5-a599-ffa162688458"
+    },
+    {
+      "label": "Others|Mountain Ecosystem",
+      "translations": {
+        "en": "Others|Mountain Ecosystem",
+        "hi": "अन्य|पर्वतीय"
+      },
+      "value": "Others|Mountain Ecosystem",
+      "valueId": "fcdd8b90-233d-4d9a-8cbc-93a6c3db6140"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "dda946af-2490-41d9-907c-23ee7fcc40de"
+    }
+  ],
+  "Category of CCA": [
+    {
+      "label": "Defined",
+      "translations": {
+        "en": "Defined",
+        "hi": "परिभाषित"
+      },
+      "value": "Defined",
+      "valueId": "b09d9d92-2acc-440f-9a8b-bb7157e4de43"
+    },
+    {
+      "label": "Disrupted",
+      "translations": {
+        "en": "Disrupted",
+        "hi": "बाधित"
+      },
+      "value": "Disrupted",
+      "valueId": "c2618731-1f29-4641-aa26-0eb6f0a18984"
+    },
+    {
+      "label": "Desired",
+      "translations": {
+        "en": "Desired",
+        "hi": "वांछित"
+      },
+      "value": "Desired",
+      "valueId": "3616d449-0b7f-4cfb-9ee2-1bd7dab59cf4"
+    },
+    {
+      "label": "Data deficient",
+      "translations": {
+        "en": "Data deficient",
+        "hi": "आंकडों की कमी"
+      },
+      "value": "Data deficient",
+      "valueId": "6aa4f11b-1433-4380-ba48-dc4dbea97965"
+    }
+  ],
+  "Origin": [
+    {
+      "label": "Based on traditional practice",
+      "translations": {
+        "en": "Based on traditional practice",
+        "hi": "पारंपरिक प्रथाओं पर आधारित"
+      },
+      "value": "Based on traditional practice",
+      "valueId": "5ff4fe01-bd5a-4c80-bcd2-7bec77ee830e"
+    },
+    {
+      "label": "Revived by community initiative",
+      "translations": {
+        "en": "Revived by community initiative",
+        "hi": "सामुदायिक पहल द्वारा पुनर्जीवित"
+      },
+      "value": "Revived by community initiative",
+      "valueId": "836b941f-a3ea-4f7a-bc48-739f2d1432ba"
+    },
+    {
+      "label": "New initiative by community",
+      "translations": {
+        "en": "New initiative by community",
+        "hi": "समुदाय द्वारा नई पहल"
+      },
+      "value": "New initiative by community",
+      "valueId": "691f4fb4-38e9-43c2-8a99-3a49b3892de5"
+    },
+    {
+      "label": "New initiative by government agency",
+      "translations": {
+        "en": "New initiative by government agency",
+        "hi": "सरकारी एजेंसी द्वारा नई पहल"
+      },
+      "value": "New initiative by government agency",
+      "valueId": "401a3a77-6149-46d6-9faf-36eab3a34629"
+    },
+    {
+      "label": "New initiative by external non-government agency",
+      "translations": {
+        "en": "New initiative by external non-government agency",
+        "hi": "बाह्य गैर सरकारी एजेंसी द्वारा नई पहल"
+      },
+      "value": "New initiative by external non-government agency",
+      "valueId": "063f13ac-baf3-49ee-a58d-fe45c3e66e18"
+    }
+  ],
+  "Motivations": [
+    {
+      "label": "Livelihood",
+      "translations": {
+        "en": "Livelihood",
+        "hi": "आजीविका हेतू"
+      },
+      "value": "Livelihood",
+      "valueId": "767553e6-8504-4df8-8640-e5acdd6044f1"
+    },
+    {
+      "label": "Ecological functions",
+      "translations": {
+        "en": "Ecological functions",
+        "hi": "पारिस्थितिकी कार्य हेतू"
+      },
+      "value": "Ecological functions",
+      "valueId": "b6199d5b-2d73-4cef-bec8-eff48f0b86ea"
+    },
+    {
+      "label": "Self empowerment",
+      "translations": {
+        "en": "Self empowerment",
+        "hi": "स्व-सशक्तिकरण हेतू"
+      },
+      "value": "Self empowerment",
+      "valueId": "c7a1aeba-a7ad-4e92-ab43-7eceaf929ecf"
+    },
+    {
+      "label": "Religious/cultural sentiments",
+      "translations": {
+        "en": "Religious/cultural sentiments",
+        "hi": "धार्मिक/सांस्कृतिक भावनाएं"
+      },
+      "value": "Religious/cultural sentiments",
+      "valueId": "962ca754-8c14-4e35-a965-15857859f7e2"
+    },
+    {
+      "label": "Natural habitat and species conservation",
+      "translations": {
+        "en": "Natural habitat and species conservation",
+        "hi": "प्राकृतिक आवास और प्रजातियों के संरक्षण हेतू"
+      },
+      "value": "Natural habitat and species conservation",
+      "valueId": "90a555c2-d994-48e9-8c6f-d9f505c4c5ad"
+    },
+    {
+      "label": "Wild biodiversity conservation",
+      "translations": {
+        "en": "Wild biodiversity conservation",
+        "hi": "वन्य जैव विविधता संरक्षण"
+      },
+      "value": "Wild biodiversity conservation",
+      "valueId": "fc7f7e5c-1dee-4b1f-adc2-09fda7c94c8f"
+    },
+    {
+      "label": "Agricultural and livestock diversity conservation",
+      "translations": {
+        "en": "Agricultural and livestock diversity conservation",
+        "hi": "कृषि और पशुधन विविधता संरक्षण हेतू"
+      },
+      "value": "Agricultural and livestock diversity conservation",
+      "valueId": "f72a25b2-1805-46cc-9fed-240808ab0b90"
+    },
+    {
+      "label": "Response to external threat",
+      "translations": {
+        "en": "Response to external threat",
+        "hi": "बाहरी खतरे के जवाब हेतू"
+      },
+      "value": "Response to external threat",
+      "valueId": "f1d2b98f-f0fa-4e49-a595-4d5f346b0cad"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "cd775564-a24b-4858-a72a-3feedfa99d4e"
+    }
+  ],
+  "Collective of CCAs": [
+    {
+      "label": "Yes",
+      "translations": {
+        "en": "Yes",
+        "hi": "Yes"
+      },
+      "value": "Yes",
+      "valueId": "4802a447-dd89-49f5-bfa1-0b8ac012050c"
+    }
+  ],
+  "Decision Making Body": [
+    {
+      "label": "Gram sabha",
+      "translations": {
+        "en": "Gram sabha",
+        "hi": "ग्राम सभा"
+      },
+      "value": "Gram sabha",
+      "valueId": "cba00421-99ef-459a-9cd4-f184e4024f58"
+    },
+    {
+      "label": "Panchayat",
+      "translations": {
+        "en": "Panchayat",
+        "hi": "पंचायत"
+      },
+      "value": "Panchayat",
+      "valueId": "f241a919-8d57-41e7-abac-cf4de00297b9"
+    },
+    {
+      "label": "Resource users",
+      "translations": {
+        "en": "Resource users",
+        "hi": "संसाधन उपयोगकर्ता"
+      },
+      "value": "Resource users",
+      "valueId": "0a94a32b-9289-43b0-90c8-f8095bbd79ff"
+    },
+    {
+      "label": "JFM committee",
+      "translations": {
+        "en": "JFM committee",
+        "hi": "जेएफएम समिति"
+      },
+      "value": "JFM committee",
+      "valueId": "390e6363-c27a-4b55-a3ba-c89f346e161c"
+    },
+    {
+      "label": "CFR management committee",
+      "translations": {
+        "en": "CFR management committee",
+        "hi": "सीएफआर समिति"
+      },
+      "value": "CFR management committee",
+      "valueId": "53cd8ce4-eb35-4540-b372-c5f4bace4fc8"
+    },
+    {
+      "label": "PESA committee",
+      "translations": {
+        "en": "PESA committee",
+        "hi": "पेसा समिति"
+      },
+      "value": "PESA committee",
+      "valueId": "6b00faf4-f393-4239-99e9-1c4cb38d1547"
+    },
+    {
+      "label": "Women’s committee",
+      "translations": {
+        "en": "Women’s committee",
+        "hi": "महिला समिति"
+      },
+      "value": "Women’s committee",
+      "valueId": "8e27294b-425f-4bcc-a173-b4ecff0a7101"
+    },
+    {
+      "label": "Youth committee",
+      "translations": {
+        "en": "Youth committee",
+        "hi": "युवा समिति"
+      },
+      "value": "Youth committee",
+      "valueId": "efbaeca6-ef1c-4ead-ba50-cd1aae8908bf"
+    },
+    {
+      "label": "Others|Forest protection committee",
+      "translations": {
+        "en": "Others|Forest protection committee",
+        "hi": "अन्य|वन संरक्षण समिति"
+      },
+      "value": "Forest protection committee",
+      "valueId": "39c869bd-4fbc-41aa-833f-a817ae26b530"
+    },
+    {
+      "label": "Others|Van Panchayat",
+      "translations": {
+        "en": "Others|Van Panchayat",
+        "hi": "अन्य|वन पंचायत"
+      },
+      "value": "Van Panchayat",
+      "valueId": "168e9428-1357-49c5-b91e-5f8a8698ee85"
+    },
+    {
+      "label": "Others|Council of multiple villages",
+      "translations": {
+        "en": "Others|Council of multiple villages",
+        "hi": "अन्य|कई गांवों की परिषद"
+      },
+      "value": "Council of multiple villages",
+      "valueId": "8b4ef441-30ae-4e91-9bf1-a4029c093dd5"
+    },
+    {
+      "label": "Others|Members of a clan/sub clan",
+      "translations": {
+        "en": "Others|Members of a clan/sub clan",
+        "hi": "अन्य|गांवों और पंचायतों में फैले एक कबीले/उप कबीले के सदस्य"
+      },
+      "value": "Members of a clan/sub clan",
+      "valueId": "dda3fceb-255f-4684-88c3-dc299e0d1f46"
+    },
+    {
+      "label": "Others|Traditional system of elders",
+      "translations": {
+        "en": "Others|Traditional system of elders",
+        "hi": "अन्य|बड़ों द्वारा स्थापित पारंपरिक प्रणाली"
+      },
+      "value": "Traditional system of elders",
+      "valueId": "27c90efb-62cc-47c2-bc32-9997fd1724f2"
+    },
+    {
+      "label": "Others|Others (please specify)",
+      "translations": {
+        "en": "Others|Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "637483c5-861f-424c-9565-6c1047b199ab"
+    }
+  ],
+  "Rules and Regulations": [
+    {
+      "label": "Formal",
+      "translations": {
+        "en": "Formal",
+        "hi": "औपचारिक"
+      },
+      "value": "Formal",
+      "valueId": "8cb67f5b-5d75-466f-88bf-561aaa5431fd"
+    },
+    {
+      "label": "Informal",
+      "translations": {
+        "en": "Informal",
+        "hi": "अनौपचारिक"
+      },
+      "value": "Informal",
+      "valueId": "289b4e90-fddf-4b31-b347-7703d0880eb6"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "9e5228cd-71cc-4ea9-8d83-23474420fa91"
+    }
+  ],
+  "Community activities through the year": [
+    {
+      "label": "Fire Management",
+      "translations": {
+        "en": "Fire Management",
+        "hi": "अग्नि प्रबंधन"
+      },
+      "value": "Fire Management",
+      "valueId": "4c9f40af-ddf4-4378-a627-c5cd2de54829"
+    },
+    {
+      "label": "Regulation of harvest",
+      "translations": {
+        "en": "Regulation of harvest",
+        "hi": "उत्पाद विनियमन"
+      },
+      "value": "Regulation of harvest",
+      "valueId": "53f07d97-bd1a-410b-8ef3-369d7e4c28e9"
+    },
+    {
+      "label": "Patrolling, watch and ward",
+      "translations": {
+        "en": "Patrolling, watch and ward",
+        "hi": "पेट्रोलिंग, वॉच और वार्ड"
+      },
+      "value": "Patrolling, watch and ward",
+      "valueId": "fe992f63-2ee1-4292-aac2-9c290924017e"
+    },
+    {
+      "label": "Plantations and restoration activities",
+      "translations": {
+        "en": "Plantations and restoration activities",
+        "hi": "वृक्षारोपण और बहाली गतिविधियाँ"
+      },
+      "value": "Plantations and restoration activities",
+      "valueId": "8ec738bc-b3b3-4439-a268-f921b6d51b7f"
+    },
+    {
+      "label": "Soil and water conservation",
+      "translations": {
+        "en": "Soil and water conservation",
+        "hi": "मृदा और जल संरक्षण"
+      },
+      "value": "Soil and water conservation",
+      "valueId": "18ed786e-0063-4248-bd7b-cb72a87e2c25"
+    },
+    {
+      "label": "Fencing",
+      "translations": {
+        "en": "Fencing",
+        "hi": "बाड़ लगाना"
+      },
+      "value": "Fencing",
+      "valueId": "386cbd5c-3f84-44e4-88cd-c5bc9a2ee0ea"
+    },
+    {
+      "label": "Removing encroachment",
+      "translations": {
+        "en": "Removing encroachment",
+        "hi": "अतिक्रमण हटाना"
+      },
+      "value": "Removing encroachment",
+      "valueId": "91b6e196-ecdf-4423-bb93-91352797593a"
+    },
+    {
+      "label": "Ex-situ conservation",
+      "translations": {
+        "en": "Ex-situ conservation",
+        "hi": "एक्स-सीटू संरक्षण"
+      },
+      "value": "Ex-situ conservation",
+      "valueId": "d0e200f3-5e74-43f4-9e88-c982701e2368"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Other|?",
+      "valueId": "7f36966b-fd40-4025-af2f-3a455eb2c653"
+    }
+  ],
+  "Legal Status": [
+    {
+      "label": "Protected Areas under WLPA | Tiger reserve",
+      "translations": {
+        "en": "Protected Areas under WLPA | Tiger reserve",
+        "hi": "वन्यजीव संरक्षण अधिनियम (डब्ल्यूएलपीए) के तहत संरक्षित क्षेत्र | टाइगर रिजर्व"
+      },
+      "value": "Protected Areas under WLPA | Tiger reserve",
+      "valueId": "7234e83f-7878-47d2-9a0f-87d3591a0954"
+    },
+    {
+      "label": "Protected Areas under WLPA | National park",
+      "translations": {
+        "en": "Protected Areas under WLPA | National park",
+        "hi": "वन्यजीव संरक्षण अधिनियम (डब्ल्यूएलपीए) के तहत संरक्षित क्षेत्र | राष्ट्रीय उद्यान"
+      },
+      "value": "Protected Areas under WLPA | National park",
+      "valueId": "08ed0c12-e70a-4d3e-a37a-b63d7f7c5f4b"
+    },
+    {
+      "label": "Protected Areas under WLPA | Wildlife sanctuary",
+      "translations": {
+        "en": "Protected Areas under WLPA | Wildlife sanctuary",
+        "hi": "वन्यजीव संरक्षण अधिनियम (डब्ल्यूएलपीए) के तहत संरक्षित क्षेत्र | वन्यजीव अभयारण्य"
+      },
+      "value": "Protected Areas under WLPA | Wildlife sanctuary",
+      "valueId": "7a15c5a3-db76-4606-ab0b-378e828cd763"
+    },
+    {
+      "label": "Protected Areas under WLPA | Conservation reserve",
+      "translations": {
+        "en": "Protected Areas under WLPA | Conservation reserve",
+        "hi": "वन्यजीव संरक्षण अधिनियम (डब्ल्यूएलपीए) के तहत संरक्षित क्षेत्र | आरक्षित संरक्षण क्षेत्र"
+      },
+      "value": "Protected Areas under WLPA | Conservation reserve",
+      "valueId": "caeec4ea-2233-448f-b5b1-94bf16a6d1ef"
+    },
+    {
+      "label": "Protected Areas under WLPA | Community reserve",
+      "translations": {
+        "en": "Protected Areas under WLPA | Community reserve",
+        "hi": "वन्यजीव संरक्षण अधिनियम (डब्ल्यूएलपीए) के तहत संरक्षित क्षेत्र | आरक्षित सामुदायिक क्षेत्र"
+      },
+      "value": "Protected Areas under WLPA | Community reserve",
+      "valueId": "02246eea-1ef8-41f3-b0d7-28edd863c3ef"
+    },
+    {
+      "label": "Biodiversity Heritage Site under BDA",
+      "translations": {
+        "en": "Biodiversity Heritage Site under BDA",
+        "hi": "जैव विविधता धरोहर (बीडीए)"
+      },
+      "value": "Biodiversity Heritage Site under BDA",
+      "valueId": "708b0aaf-21af-465a-bfe7-63d05b718438"
+    },
+    {
+      "label": "Forest Area under IFA | Reserve forest",
+      "translations": {
+        "en": "Forest Area under IFA | Reserve forest",
+        "hi": "भारतीय वन अधिनियम (आईएफए) के तहत वन क्षेत्र | आरक्षित वन"
+      },
+      "value": "Forest Area under IFA | Reserve forest",
+      "valueId": "7776bc84-b98b-4035-8d3f-b72da565ddca"
+    },
+    {
+      "label": "Forest Area under IFA | Protected forest",
+      "translations": {
+        "en": "Forest Area under IFA | Protected forest",
+        "hi": "भारतीय वन अधिनियम (आईएफए) के तहत वन क्षेत्र | संरक्षित वन"
+      },
+      "value": "Forest Area under IFA | Protected forest",
+      "valueId": "a42702b9-6a77-4623-af6b-510646d8631b"
+    },
+    {
+      "label": "Forest Area under IFA | Unclassed forest",
+      "translations": {
+        "en": "Forest Area under IFA | Unclassed forest",
+        "hi": "भारतीय वन अधिनियम (आईएफए) के तहत वन क्षेत्र | अवर्गीकृत वन"
+      },
+      "value": "Forest Area under IFA | Unclassed forest",
+      "valueId": "a833e307-2357-4382-aad0-ac176c663e97"
+    },
+    {
+      "label": "Forest Area under IFA | Village forest",
+      "translations": {
+        "en": "Forest Area under IFA | Village forest",
+        "hi": "भारतीय वन अधिनियम (आईएफए) के तहत वन क्षेत्र | ग्राम वन"
+      },
+      "value": "Forest Area under IFA |  Village forest",
+      "valueId": "891a2e16-4167-43b4-b586-5d71a568554a"
+    },
+    {
+      "label": "CFR under FRA",
+      "translations": {
+        "en": "CFR under FRA",
+        "hi": "मान्यता प्राप्त सीएफआर दावा क्षेत्र (एफआरए)"
+      },
+      "value": "CFR under FRA",
+      "valueId": "db6c0cdd-ab46-45a5-893d-35570e1356b5"
+    },
+    {
+      "label": "Comes under PESA",
+      "translations": {
+        "en": "Comes under PESA",
+        "hi": "यह क्षेत्र पीईएसए के अंतर्गत आता है"
+      },
+      "value": "Comes under PESA",
+      "valueId": "d69849ea-02b4-406f-b5aa-e8708a260d45"
+    },
+    {
+      "label": "Others |Van Panchayat",
+      "translations": {
+        "en": "Others |Van Panchayat",
+        "hi": "अन्य | वन पंचायत"
+      },
+      "value": "Others |Van Panchayat",
+      "valueId": "1676e783-632e-4a48-8809-71e609b15e9f"
+    },
+    {
+      "label": "Others |Habitat Rights under FRA",
+      "translations": {
+        "en": "Others |Habitat Rights under FRA",
+        "hi": "अन्य | पर्यावास अधिकार एफआरए के अंतर्गत"
+      },
+      "value": "Others |Habitat Rights under FRA",
+      "valueId": "809e5683-3154-40e5-865e-c0e88205e3ab"
+    },
+    {
+      "label": "Others |Governed by state specific laws or special constitutional status",
+      "translations": {
+        "en": "Others |Governed by state specific laws or special constitutional status",
+        "hi": "अन्य | राज्य के लिए बने विशिष्ट कानूनों द्वारा शासित"
+      },
+      "value": "Others |Governed by state specific laws or special constitutional status",
+      "valueId": "264913c3-f0e5-4928-b10d-5da65beef80f"
+    },
+    {
+      "label": "Others |Revenue land/ pasture land under LR Code",
+      "translations": {
+        "en": "Others |Revenue land/ pasture land under LR Code",
+        "hi": "अन्य | राजस्व भूमि / चारागाह भूमि"
+      },
+      "value": "Others |Revenue land/ pasture land under LR Code",
+      "valueId": "c33b6650-85e0-4743-9c2f-a0197ff06c32"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "e4f1c5d5-d733-4e8b-b6a2-6dfbf4f9c6f6"
+    }
+  ],
+  "FRA Applicability": [
+    {
+      "label": "Yes",
+      "translations": {
+        "en": "Yes",
+        "hi": "Yes"
+      },
+      "value": "Yes",
+      "valueId": "50d59682-b35a-4d7b-819a-4345c9e06b54"
+    }
+  ],
+  "Community Forest Resource Rights (CFR)": [
+    {
+      "label": "CFR claim filed and in process",
+      "translations": {
+        "en": "CFR claim filed and in process",
+        "hi": "सीएफआर दावा दायर किया जा चुका है और प्रक्रिया में है"
+      },
+      "value": "CFR claim filed and in process",
+      "valueId": "6ad78b1e-b146-4b4d-8f5f-b812c9c3d9da"
+    },
+    {
+      "label": "CFR claims recognised",
+      "translations": {
+        "en": "CFR claims recognised",
+        "hi": "सीएफआर दावों को मान्यता दी जा चुकी है"
+      },
+      "value": "CFR claims recognised",
+      "valueId": "1efc1187-6f4f-4378-af4a-e459e7eafa61"
+    },
+    {
+      "label": "CFR claims rejected but not appealed",
+      "translations": {
+        "en": "CFR claims rejected but not appealed",
+        "hi": "सीएफआर दावे खारिज किये जा चुके हैं"
+      },
+      "value": "CFR claims rejected but not appealed",
+      "valueId": "3d748d15-d6cd-451c-82f0-e037aca9168d"
+    },
+    {
+      "label": "CFR claims rejected and appealed",
+      "translations": {
+        "en": "CFR claims rejected and appealed",
+        "hi": "सीएफआर दावों को खारिज कर दिया गया लेकिन अपील नहीं की गई"
+      },
+      "value": "CFR claims rejected and appealed",
+      "valueId": "0cda6445-e832-4114-a0ff-80ea10e5b149"
+    }
+  ],
+  "Level of CFR claim": [
+    {
+      "label": "Gram sabha",
+      "translations": {
+        "en": "Gram sabha",
+        "hi": "ग्राम सभा"
+      },
+      "value": "Gram sabha",
+      "valueId": "39a39b5d-ea03-40e6-a211-db55dda70fd6"
+    },
+    {
+      "label": "Sub-district level",
+      "translations": {
+        "en": "Sub-district level",
+        "hi": "उप-जिला स्तर"
+      },
+      "value": "Sub-district level",
+      "valueId": "284ec25c-414d-46ef-857f-0bde73bd2808"
+    },
+    {
+      "label": "District level",
+      "translations": {
+        "en": "District level",
+        "hi": "जिला स्तर"
+      },
+      "value": "District level",
+      "valueId": "7819d403-aec1-44ea-b481-db148f0c5bd4"
+    }
+  ],
+  "Management plan status": [
+    {
+      "label": "CFRMC constituted and endorsed by Gram Sabha",
+      "translations": {
+        "en": "CFRMC constituted and endorsed by Gram Sabha",
+        "hi": "सीएफआरएमसी (सीएफआर प्रबंधन समिति) ग्राम सभा द्वारा गठित और समर्थित"
+      },
+      "value": "CFRMC constituted and endorsed by Gram Sabha",
+      "valueId": "3897c87f-ffbd-4202-a189-fffdd14d421a"
+    },
+    {
+      "label": "Management plan not started",
+      "translations": {
+        "en": "Management plan not started",
+        "hi": "प्रबंधन योजना शुरू नहीं हुई"
+      },
+      "value": "Management plan not started",
+      "valueId": "94ee2ee9-4187-45ce-8f55-84fccb8a85d5"
+    },
+    {
+      "label": "Management plan in progress",
+      "translations": {
+        "en": "Management plan in progress",
+        "hi": "प्रबंधन योजना प्रगति पर"
+      },
+      "value": "Management plan in progress",
+      "valueId": "2fcee772-4e2a-44eb-b28b-49ef0a75fd12"
+    },
+    {
+      "label": "Management plan prepared",
+      "translations": {
+        "en": "Management plan prepared",
+        "hi": "प्रबंधन योजना तैयार"
+      },
+      "value": "Management plan prepared",
+      "valueId": "ce0fdb5b-dc8f-486b-b179-a7219868e1eb"
+    },
+    {
+      "label": "Execution of management plan not started",
+      "translations": {
+        "en": "Execution of management plan not started",
+        "hi": "प्रबंधन योजना का क्रियान्वयन शुरू नहीं"
+      },
+      "value": "Execution of management plan not started",
+      "valueId": "9b3c4794-a5f8-4366-86c4-b6839a7a5cde"
+    },
+    {
+      "label": "Execution of management In progress",
+      "translations": {
+        "en": "Execution of management In progress",
+        "hi": "प्रबंधन योजना का क्रियान्वयन प्रगति पर"
+      },
+      "value": "Execution of management In progress",
+      "valueId": "b72ffd6d-5e81-4e90-aedf-cf8f64047640"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "d9e2da26-143b-4509-b9e0-f858e6abf5af"
+    }
+  ],
+  "Land Ownership": [
+    {
+      "label": "Government owned | Forest Department",
+      "translations": {
+        "en": "Government owned | Forest Department",
+        "hi": "सरकारी स्वामित्व| वन विभाग।"
+      },
+      "value": "Government owned | Forest Department",
+      "valueId": "a4096d95-26fe-4749-a9d1-ef2e9c0caa40"
+    },
+    {
+      "label": "Government owned | Revenue Department",
+      "translations": {
+        "en": "Government owned | Revenue Department",
+        "hi": "सरकारी स्वामित्व | राजस्व विभाग।"
+      },
+      "value": "Government owned |Revenue Department",
+      "valueId": "ae22cc81-bad7-44a5-8fb3-92e87723e1f0"
+    },
+    {
+      "label": "Government owned | Irrigation/Water Resource Department",
+      "translations": {
+        "en": "Government owned | Irrigation/Water Resource Department",
+        "hi": "सरकारी स्वामित्व| सिंचाई/जल विभाग।"
+      },
+      "value": "Government owned | Irrigation/Water Resource Department",
+      "valueId": "a2cad51d-b5ad-4cd7-b999-9213febb9fee"
+    },
+    {
+      "label": "Government owned | Fisheries",
+      "translations": {
+        "en": "Government owned | Fisheries",
+        "hi": "सरकारी स्वामित्व |मत्स्य पालन विभाग"
+      },
+      "value": "Government owned | Fisheries",
+      "valueId": "4d58eaeb-7380-43dd-a88b-a5a056f1ed47"
+    },
+    {
+      "label": "Government owned | Others",
+      "translations": {
+        "en": "Government owned | Others",
+        "hi": "सरकारी स्वामित्व| अन्य"
+      },
+      "value": "Government owned | Others",
+      "valueId": "8b1d80cf-878e-46bc-b5f0-6d72288ce436"
+    },
+    {
+      "label": "Community Owned",
+      "translations": {
+        "en": "Community Owned",
+        "hi": "समुदाय का स्वामित्व"
+      },
+      "value": "Community Owned",
+      "valueId": "bc063ddf-fe84-4566-afa2-1c313c1db4ec"
+    },
+    {
+      "label": "Privately Owned",
+      "translations": {
+        "en": "Privately Owned",
+        "hi": "निजी स्वामित्व"
+      },
+      "value": "Privately Owned",
+      "valueId": "00306b9c-f3ea-485d-8958-726c52d92694"
+    },
+    {
+      "label": "Contested",
+      "translations": {
+        "en": "Contested",
+        "hi": "विरोधित"
+      },
+      "value": "Contested",
+      "valueId": "4d341b18-92a9-4321-acae-37951b405029"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "b1ee2dd8-4c80-4f7b-9f09-b1f35a8dc0c2"
+    }
+  ],
+  "Other Recognised Status": [
+    {
+      "label": "Key Biodiversity Area",
+      "translations": {
+        "en": "Key Biodiversity Area",
+        "hi": "प्रमुख जैव विविधता क्षेत्र"
+      },
+      "value": "Key Biodiversity Area",
+      "valueId": "5f67432e-2d70-4cdb-b127-fdc8923c689d"
+    },
+    {
+      "label": "Important Bird Area",
+      "translations": {
+        "en": "Important Bird Area",
+        "hi": "महत्वपूर्ण पक्षी क्षेत्र"
+      },
+      "value": "Important Bird Area",
+      "valueId": "2a154717-7ac7-4673-9ebb-66a027e39c71"
+    },
+    {
+      "label": "UNESCO Man and Biosphere reserve",
+      "translations": {
+        "en": "UNESCO Man and Biosphere reserve",
+        "hi": "यूनेस्को मैन एंड बायोस्फीयर रिजर्व"
+      },
+      "value": "UNESCO Man and Biosphere reserve",
+      "valueId": "e4f90314-d9db-4765-9f9d-55c9fcd8991d"
+    },
+    {
+      "label": "Ramsar site",
+      "translations": {
+        "en": "Ramsar site",
+        "hi": "रामसर साइट"
+      },
+      "value": "Ramsar site",
+      "valueId": "8814ceff-ad31-4e61-868f-dc119fe00c7e"
+    },
+    {
+      "label": "UNESCO World Heritage site",
+      "translations": {
+        "en": "UNESCO World Heritage site",
+        "hi": "यूनेस्को विश्व धरोहर स्थल"
+      },
+      "value": "UNESCO World Heritage site",
+      "valueId": "c0de693f-5da9-4770-b5e6-44f0667a9c71"
+    },
+    {
+      "label": "Wildlife Corridor",
+      "translations": {
+        "en": "Wildlife Corridor",
+        "hi": "वन्यजीवगलियारा"
+      },
+      "value": "Wildlife Corridor",
+      "valueId": "66513c6d-4a13-4297-876f-b8feb398df4d"
+    },
+    {
+      "label": "OECM (under CBD)",
+      "translations": {
+        "en": "OECM (under CBD)",
+        "hi": "ओईसीएम (सीबीडी के तहत)"
+      },
+      "value": "OECM (under CBD)",
+      "valueId": "99139c19-506f-43ba-9061-5be8587932f2"
+    },
+    {
+      "label": "Biodiversity Hotspot",
+      "translations": {
+        "en": "Biodiversity Hotspot",
+        "hi": "Biodiversity Hotspot"
+      },
+      "value": "Biodiversity Hotspot",
+      "valueId": "3b1a8e1d-a060-4289-997b-99e458ce4d37"
+    },
+    {
+      "label": "Trans Boundary tiger conservation landscapes",
+      "translations": {
+        "en": "Trans Boundary tiger conservation landscapes",
+        "hi": "ट्रांस बाउंड्री टाइगर संरक्षण प्राकृतिक दृश्य"
+      },
+      "value": "Trans Boundary tiger conservation landscapes",
+      "valueId": "3d2e2458-b585-4e9a-af44-b5b10cee95c8"
+    },
+    {
+      "label": "Kailash sacred landscape",
+      "translations": {
+        "en": "Kailash sacred landscape",
+        "hi": "कैलाश के पवित्र स्थल"
+      },
+      "value": "Kailash sacred landscape",
+      "valueId": "843d6ef5-d8f0-4fbc-a208-35d9dc032df9"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "cf1ca595-6e6d-4915-97ac-19bcf357f4a4"
+    }
+  ],
+  "Sacred Landscape": [
+    {
+      "label": "Yes",
+      "translations": {
+        "en": "Yes",
+        "hi": "Yes"
+      },
+      "value": "Yes",
+      "valueId": "c3b7013b-6517-468f-bd48-d3b56c290d90"
+    }
+  ],
+  "Impact on Livelihoods and Subsistence": [
+    {
+      "label": "Cut fodder",
+      "translations": {
+        "en": "Cut fodder",
+        "hi": "चारा कटाई"
+      },
+      "value": "Cut fodder",
+      "valueId": "f1a81197-1ac3-4034-9503-78c709ce893e"
+    },
+    {
+      "label": "Grazing",
+      "translations": {
+        "en": "Grazing",
+        "hi": "चराई"
+      },
+      "value": "Grazing",
+      "valueId": "b09b9641-ad0a-4d6d-bf1d-f031a06be772"
+    },
+    {
+      "label": "Firewood",
+      "translations": {
+        "en": "Firewood",
+        "hi": "जलाऊ लकड़ी"
+      },
+      "value": "Firewood",
+      "valueId": "920645d4-3404-4206-bafe-8b3fccfcdb32"
+    },
+    {
+      "label": "Non-timber forest produce",
+      "translations": {
+        "en": "Non-timber forest produce",
+        "hi": "गैर-इमारती वनोपज"
+      },
+      "value": "Non-timber forest produce",
+      "valueId": "c5fc4bce-d6c6-4f81-830f-08994e75d3d6"
+    },
+    {
+      "label": "Timber",
+      "translations": {
+        "en": "Timber",
+        "hi": "इमारती लकड़ी"
+      },
+      "value": "Timber",
+      "valueId": "0e1d5507-e278-48c1-8f0f-52e51762293a"
+    },
+    {
+      "label": "Fish",
+      "translations": {
+        "en": "Fish",
+        "hi": "मछली"
+      },
+      "value": "Fish",
+      "valueId": "33a5a62d-7af4-412b-95ab-2b6ec02c5cda"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "700240f3-b10d-47d0-9ec4-69d79fec8eac"
+    }
+  ],
+  "Social Impacts": [
+    {
+      "label": "Community empowerment",
+      "translations": {
+        "en": "Community empowerment",
+        "hi": "सामुदायिक सशक्तिकरण"
+      },
+      "value": "Community empowerment",
+      "valueId": "924b756d-9c1a-4da2-b77c-f7199a6d34cd"
+    },
+    {
+      "label": "Empowerment of women/youth/disadvantaged sections",
+      "translations": {
+        "en": "Empowerment of women/youth/disadvantaged sections",
+        "hi": "महिलाओं/युवाओं/वंचित वर्गों का सशक्तिकरण"
+      },
+      "value": "Empowerment of women/youth/disadvantaged sections",
+      "valueId": "6e58ca89-ed1d-4538-8466-b083f86c9fd7"
+    },
+    {
+      "label": "Assured land ownership or access",
+      "translations": {
+        "en": "Assured land ownership or access",
+        "hi": "सुनिश्चित भूमि स्वामित्व या भू-पहुंच"
+      },
+      "value": "Assured land ownership or access",
+      "valueId": "7f164787-9ae6-4707-9490-ef975b99023a"
+    },
+    {
+      "label": "Revival or continuation of cultural/religious associations",
+      "translations": {
+        "en": "Revival or continuation of cultural/religious associations",
+        "hi": "सांस्कृतिक/धार्मिक संघों का पुनरुद्धार"
+      },
+      "value": "Revival of cultural/religious associations",
+      "valueId": "ae7da600-fdf1-461b-bec2-71faa4d75fec"
+    },
+    {
+      "label": "Mitigation of external threat",
+      "translations": {
+        "en": "Mitigation of external threat",
+        "hi": "बाहरी खतरे में कमी"
+      },
+      "value": "Mitigation of external threat",
+      "valueId": "08124e23-1398-4c3b-a55d-825f9ab3caa6"
+    },
+    {
+      "label": "Prevention of distress outmigration",
+      "translations": {
+        "en": "Prevention of distress outmigration",
+        "hi": "संकट प्रवास में रोकथाम"
+      },
+      "value": "Prevention of distress outmigration",
+      "valueId": "cfe2380a-2983-4abf-ade2-0605727d4b77"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "d28f29c6-da3d-48ae-8a46-7b494fb48cf1"
+    }
+  ],
+  "Ecological Impact": [
+    {
+      "label": "Natural habitat preservation",
+      "translations": {
+        "en": "Natural habitat preservation",
+        "hi": "प्राकृतिक आवास में सुधार और बहाली"
+      },
+      "value": "Natural habitat preservation",
+      "valueId": "fda852f5-f985-492d-9855-23b60de178d7"
+    },
+    {
+      "label": "Good diversity and population of wildlife",
+      "translations": {
+        "en": "Good diversity and population of wildlife",
+        "hi": "वन्यजीवों की विविधता और जनसंख्या में वृद्धि"
+      },
+      "value": "Good diversity and population of wildlife",
+      "valueId": "d8817b77-3c86-4bb2-80f0-6be748ce5e28"
+    },
+    {
+      "label": "Good diversity of crops, livestock, fish",
+      "translations": {
+        "en": "Good diversity of crops, livestock, fish",
+        "hi": "फसलों, पशुओं, मछलियों की विविधता में वृद्धि"
+      },
+      "value": "Increase in diversity of crops, livestock, fish",
+      "valueId": "150d7b9f-56d0-4cb3-82c4-d7e97428398c"
+    },
+    {
+      "label": "Improved/sustained ecological services",
+      "translations": {
+        "en": "Improved/sustained ecological services",
+        "hi": "Improvement in ecological services such as water supply and soil fertility"
+      },
+      "value": "Improvement ecological services such as water supply and soil fertility",
+      "valueId": "d3a6fe58-fd22-4a10-bc63-7e6ddac10bae"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "41be8a3c-ff43-475e-a1d8-23c821e7908f"
+    }
+  ],
+  "Internal Threats and Challenges": [
+    {
+      "label": "Internal differences and inequities",
+      "translations": {
+        "en": "Internal differences and inequities",
+        "hi": "आंतरिक मतभेद और असमानताएं"
+      },
+      "value": "Internal differences and inequities",
+      "valueId": "4fd4df85-eefd-4784-ae04-695942ad2f7b"
+    },
+    {
+      "label": "Conflict with other communities",
+      "translations": {
+        "en": "Conflict with other communities",
+        "hi": "अन्य समुदायों के साथ संघर्ष"
+      },
+      "value": "Conflict with other communities",
+      "valueId": "ee1a360f-a31b-4637-b65e-d1ca0a393bf9"
+    },
+    {
+      "label": "Reduced awareness about biodiversity and its value",
+      "translations": {
+        "en": "Reduced awareness about biodiversity and its value",
+        "hi": "जैव विविधता और इसके मूल्य के बारे में जागरूकता में कमी"
+      },
+      "value": "Reduced awareness about biodiversity and its value",
+      "valueId": "59abe7c4-fe6a-4219-beb8-394eaf883d11"
+    },
+    {
+      "label": "Lack of resources and pressures of poverty",
+      "translations": {
+        "en": "Lack of resources and pressures of poverty",
+        "hi": "संसाधनों की कमी और गरीबी का दबाव"
+      },
+      "value": "Lack of resources and pressures of poverty",
+      "valueId": "f0db4843-e061-4cb0-8dc4-0be68e9d503d"
+    },
+    {
+      "label": "Over-harvesting from within the community",
+      "translations": {
+        "en": "Over-harvesting from within the community",
+        "hi": "अधिक कटाई समुदाय के भीतर से"
+      },
+      "value": "Over-harvesting from within the community",
+      "valueId": "4cdda0c4-e9b5-4ed9-87c1-4d6b298bc683"
+    },
+    {
+      "label": "Changing socio-cultural practices and aspirations",
+      "translations": {
+        "en": "Changing socio-cultural practices and aspirations",
+        "hi": "सामाजिक-सांस्कृतिक प्रथाओं और आकांक्षाओं को बदलना"
+      },
+      "value": "Changing socio-cultural practices and aspirations",
+      "valueId": "a974c07a-a949-4571-8fde-02e2909f0a97"
+    },
+    {
+      "label": "Outmigration",
+      "translations": {
+        "en": "Outmigration",
+        "hi": "पलायन"
+      },
+      "value": "Outmigration",
+      "valueId": "91a958bd-248e-495f-ba49-4a6ff37a39e7"
+    },
+    {
+      "label": "Others (please specify)",
+      "translations": {
+        "en": "Others (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Others|?",
+      "valueId": "b007d05c-9295-45ee-ae3b-f9f3b329cd05"
+    }
+  ],
+  "External Threats and Challenges": [
+    {
+      "label": "Restrictive laws and policies",
+      "translations": {
+        "en": "Restrictive laws and policies",
+        "hi": "प्रतिबंधात्मक कानून और नीतियां"
+      },
+      "value": "Restrictive laws and policies",
+      "valueId": "858cd0bb-8dfa-40a1-b5e4-ab467a535311"
+    },
+    {
+      "label": "Land ownership or tenure issues",
+      "translations": {
+        "en": "Land ownership or tenure issues",
+        "hi": "भूमि स्वामित्व या कार्यकाल संबंधित मुद्दे"
+      },
+      "value": "Land ownership or tenure issues",
+      "valueId": "576399a4-1757-4f0c-9252-e5022251be44"
+    },
+    {
+      "label": "Unwanted development pressures",
+      "translations": {
+        "en": "Unwanted development pressures",
+        "hi": "अवांछित विकास संबंधित दबाव"
+      },
+      "value": "Unwanted development pressures",
+      "valueId": "9efa46d9-be51-40b0-b209-6b6a52231d68"
+    },
+    {
+      "label": "Unwanted extraction",
+      "translations": {
+        "en": "Unwanted extraction",
+        "hi": "अवांछितनिष्कर्षण"
+      },
+      "value": "Unwanted extraction",
+      "valueId": "ada97868-3b55-4f3f-8fbf-15ef05b986c1"
+    },
+    {
+      "label": "Negative impacts of tourism",
+      "translations": {
+        "en": "Negative impacts of tourism",
+        "hi": "पर्यटन के नकारात्मक प्रभाव"
+      },
+      "value": "Negative impacts of tourism",
+      "valueId": "36c1d100-4210-40cd-8a91-78df80e1e152"
+    },
+    {
+      "label": "Decline in biodiversity",
+      "translations": {
+        "en": "Decline in biodiversity",
+        "hi": "जैव विविधता या प्रकृति की गुणवत्ता या मात्रा में गिरावट"
+      },
+      "value": "Decline in biodiversity",
+      "valueId": "82c43914-5cb0-49a5-b601-f8b1c5f0c5a4"
+    },
+    {
+      "label": "Climate change impacts",
+      "translations": {
+        "en": "Climate change impacts",
+        "hi": "जलवायु परिवर्तन प्रभाव"
+      },
+      "value": "Climate change impacts",
+      "valueId": "9804c635-880b-440b-8991-88886aae06a3"
+    },
+    {
+      "label": "Invasive or non-native species",
+      "translations": {
+        "en": "Invasive or non-native species",
+        "hi": "आक्रामक या गैर-देशी प्रजातियां"
+      },
+      "value": "Invasive or non-native species",
+      "valueId": "442bde62-6be1-4bb4-99c3-d3df19b21ed2"
+    },
+    {
+      "label": "Mega-development projects",
+      "translations": {
+        "en": "Mega-development projects",
+        "hi": "मेगा-विकास परियोजनाएं"
+      },
+      "value": "Mega-development projects",
+      "valueId": "c3a294fd-22a7-4bc9-b44c-36da96ae69cc"
+    },
+    {
+      "label": "Other (please specify)",
+      "translations": {
+        "en": "Other (please specify)",
+        "hi": "अन्य (निर्दिष्ट करें)"
+      },
+      "value": "Other|?",
+      "valueId": "08051339-4970-463e-8f6b-1f015734817b"
+    }
+  ],
+  "Data Source": [
+    {
+      "label": "From publicly available sources",
+      "translations": {
+        "en": "From publicly available sources",
+        "hi": "सार्वजनिक रूप से उपलब्ध स्रोतों से"
+      },
+      "value": "from publicly available sources",
+      "valueId": "5de0f260-f283-454b-94b9-4825ee98e449"
+    },
+    {
+      "label": "By community member/s",
+      "translations": {
+        "en": "By community member/s",
+        "hi": "समुदाय के सदस्य/सदस्यों द्वारा"
+      },
+      "value": "by community member/s",
+      "valueId": "28ecaea9-aae8-4857-bb24-76069d96c7ba"
+    },
+    {
+      "label": "By external entity with permission of community member",
+      "translations": {
+        "en": "By external entity with permission of community member",
+        "hi": "समुदाय के सदस्य की अनुमति के साथ बाहरी इकाई द्वारा"
+      },
+      "value": "by external entity with permission of community member",
+      "valueId": "d36dae82-0b32-4580-9f67-4b3df96fae22"
+    },
+    {
+      "label": "Through participation and consent of entire community",
+      "translations": {
+        "en": "Through participation and consent of entire community",
+        "hi": "पूरे समुदाय की भागीदारी और सहमति के माध्यम से"
+      },
+      "value": "through participation and consent of entire community",
+      "valueId": "8ed59bd8-aaa5-469e-8b97-20b5af0be7c3"
+    }
+  ],
+  "License": [
+    {
+      "label": "CC BY Attribution",
+      "translations": {
+        "en": "CC BY Attribution",
+        "hi": "CC BY Attribution"
+      },
+      "value": "https://creativecommons.org/licenses/by/4.0/",
+      "valueId": "eb7fb134-71a7-4627-8e03-8b3dfab6a566"
+    },
+    {
+      "label": "CC BY-SA Attribution-ShareAlike",
+      "translations": {
+        "en": "CC BY-SA Attribution-ShareAlike",
+        "hi": "CC BY-SA Attribution-ShareAlike"
+      },
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "valueId": "2878f770-734a-4029-ab8a-9a22a6cf8924"
+    },
+    {
+      "label": "CC BY-ND Attribution-NoDerivs",
+      "translations": {
+        "en": "CC BY-ND Attribution-NoDerivs",
+        "hi": "CC BY-ND Attribution-NoDerivs"
+      },
+      "value": "https://creativecommons.org/licenses/by-nd/4.0",
+      "valueId": "4b12fc58-dcfe-4ed1-b9d9-78fe4539f53b"
+    },
+    {
+      "label": "CC BY-NC Attribution-NonCommercial",
+      "translations": {
+        "en": "CC BY-NC Attribution-NonCommercial",
+        "hi": "CC BY-NC Attribution-NonCommercial"
+      },
+      "value": "https://creativecommons.org/licenses/by-nc/4.0",
+      "valueId": "11343ade-0cb2-4ed7-af60-3fbf363fcfd2"
+    },
+    {
+      "label": "CC BY-NC-SA  Attribution-NonCommercial-ShareAlike",
+      "translations": {
+        "en": "CC BY-NC-SA  Attribution-NonCommercial-ShareAlike",
+        "hi": "CC BY-NC-SA  Attribution-NonCommercial-ShareAlike"
+      },
+      "value": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+      "valueId": "79754c70-f8c8-4145-b110-afed2407ff00"
+    },
+    {
+      "label": "CC BY-NC-ND Attribution-NonCommercial-NoDerivs",
+      "translations": {
+        "en": "CC BY-NC-ND Attribution-NonCommercial-NoDerivs",
+        "hi": "CC BY-NC-ND Attribution-NonCommercial-NoDerivs"
+      },
+      "value": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "valueId": "37ff0dbd-e814-457d-98df-629d5d80bde0"
+    }
+  ]
+}
